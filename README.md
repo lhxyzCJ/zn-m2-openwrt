@@ -53,11 +53,16 @@ make -j"$(nproc)" V=s          # root 编译先 export FORCE_UNSAFE_CONFIGURE=1
 
 已验证：4 个补丁在 `openwrt-25.12@6790b061252e34b97c8d7ad646dbb84b186a1445` 上干净应用并可清空重放；
 DTS 引用的 10 个 label 在内核 6.12 里都存在（`wifi` 由官方 `0906-...add-wifi-node.patch` 提供）；
-BDF md5 与现网一致；`make defconfig` 退出码 0，设备 profile 与全部勾选项都被选中。
+BDF md5 与现网一致；`make defconfig` 退出码 0，设备 profile 与全部勾选项都被选中；
+现场实测 `0:appsbl` 自带的 FIT 配置名列表里就有 `config@cp03-c1`，且现网固件正靠它启动；
+`0:appsblenv` 里 `ethaddr`~`eth4addr` 齐全，对应 dp1/dp2/dp4/dp5。
 
 未验证：没编完过、没刷过；`kmod-rkp-ipid` 没真编过（工作流里对它有专门告警）；
-原厂 u-boot 认不认 `config@cp03-c1`；MAC 若随机改走 `mtd_get_mac_ascii 0:appsblenv ethaddr`；
-wlan LED 的 netdev 名照同子目标 `yuncore,fap650` 抄的；DTS 按 512MB 写死（256MB/硬改 1GB 要改那行）。
+wlan LED 的 netdev 名照同子目标 `yuncore,fap650` 抄的；若起来 MAC 不对，在 `02_network` 加
+`mtd_get_mac_ascii 0:appsblenv ethaddr`。
+
+内存：DTS 走 `ipq6018-512m.dtsi` —— 对 256MB 机器不越界（几种布局的 q6 预留区都在前 256MB 内），
+1GB 硬改也不受影响（根 `memory` 节点由 u-boot 注入，DTS 里没有）；256MB 的真实风险是 64 位固件 + ath11k 的内存占用。
 
 ## 刷机顺序
 
@@ -65,4 +70,9 @@ wlan LED 的 netdev 名照同子目标 `yuncore,fap650` 抄的；DTS 按 512MB �
 2. 先刷 initramfs 试启动，能认网口和无线再动 sysupgrade。
 3. 起来后 `sh Backup/restore.sh` 推回抗检测栈（见 `Backup/重装清单.md`）。
 
+**别碰** `0:mibib` / `0:appsbl` / `0:cdt`：刷 `factory.ubi` 只覆写 `rootfs`，最坏也能回 u-boot 重刷；
+改引导分区才是变砖路径（硬改内存要先刷 CDT 并换扩容版 u-boot）。
+
 > 25.12 的包管理是 **apk**，现网那些 `.ipk` 装不上 —— 这是 rkp-ipid 必须一起编的原因。
+> 想做配套的 kmod 源也得走 apk 那套（`apk mkndx` + EC P-256 密钥 + `packages.adb`），
+> 社区那些脚本全是 opkg 时代的，抄不了。
