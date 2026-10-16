@@ -1,0 +1,135 @@
+# ZN-M2 固件云编译（官方 openwrt/openwrt + 本目录的移植补丁）
+# 部署：本仓（openwrt dev/）就是移植包，推成 public 仓后手动跑一次即可。
+# 仓必须是 public：public 仓 Actions 免费不限时长，private 只有 2000 min/月。
+
+name: Build ZN-M2 (qualcommax/ipq60xx)
+
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        description: openwrt 源码分支
+        required: true
+        default: openwrt-25.12
+  schedule:
+    - cron: '17 19 * * 0'        # 每周一 03:17（UTC+8）自动跟上游重建
+  push:
+    branches: [master, main]
+    paths:
+      - '**/patches/**.patch'
+      - '**/configs/zn_m2.config'
+      - '.github/workflows/build.yml'
+
+env:
+  REPO_URL: https://github.com/openwrt/openwrt.git
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 350          # GitHub 托管 runner 硬上限 360 分钟
+
+    steps:
+      - name: 取本仓
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: 时间戳
+        id: meta
+        run: echo "tag=$(date +%Y.%m.%d-%H%M)" >> "$GITHUB_OUTPUT"
+
+      # OpenWrt 全量编译要 20–30G，标准 runner 的根分区可用空间有限，
+      # 不清盘很容易死在 "No space left on device"。
+      - name: 腾磁盘
+        run: |
+          sudo rm -rf /usr/local/lib/android /usr/share/dotnet /opt/ghc \
+                      /usr/local/.ghcup /opt/hostedtoolcache/CodeQL
+          sudo docker image prune -af || true
+          sudo apt-get clean
+          df -h /
+
+      - name: 装编译依赖
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq build-essential clang flex bison g++ gawk \
+            gcc-multilib g++-multilib gettext git libncurses-dev libssl-dev \
+            python3 python3-setuptools python3-pyelftools rsync unzip zlib1g-dev \
+            file wget curl ccache subversion time \
+            uuid-dev liblz4-dev liblzma-dev libselinux1-dev
+
+      - name: 拉官方源码
+        run: |
+          BRANCH="${{ github.event.inputs.branch || 'openwrt-25.12' }}"
+          git clone --depth 1 -b "$BRANCH" "$REPO_URL" openwrt
+          git -C openwrt log -1 --format='%H %cd %s' | tee upstream.txt
+
+      - name: 打 ZN M2 移植补丁（含树外包 packages/*）
+        run: sh apply.sh openwrt
+
+      - name: feeds 与 config
+        run: |
+          cd openwrt
+          cp ../configs/feeds.conf feeds.conf      # 精简 feeds：只 packages + luci
+          ./scripts/feeds update -a
+          ./scripts/feeds install -a
+          cp ../configs/zn_m2.config .config
+          make defconfig
+
+          grep -q '^CONFIG_TARGET_qualcommax_ipq60xx_DEVICE_zn_m2=y' .config
+          grep -q '^CONFIG_PACKAGE_ipq-wifi-zn_m2=y' .config
+          grep -q '^CONFIG_PACKAGE_kmod-nft-tproxy=y' .config
+          grep -q '^CONFIG_PACKAGE_luci=y' .config
+
+          # rkp-ipid 是树外包（apply.sh 拷进 package/），尚未在真机编译验证过：
+          # 缺了只告警不中断，但 Actions 页面上必须看得见。
+          if grep -q '^CONFIG_PACKAGE_kmod-rkp-ipid=y' .config; then
+            echo "rkp-ipid: 已随固件编译"
+          else
+            echo "::warning title=缺少 kmod-rkp-ipid::树外包没被 defconfig 选中 —— 检查 apply.sh 是否把 packages/rkp-ipid 拷进了 package/，以及符号名是否为 CONFIG_PACKAGE_kmod-rkp-ipid"
+          fi
+
+          echo "--- 被 defconfig 丢弃的勾选项（应为空）---"
+          for p in $(grep -o '^CONFIG_PACKAGE_[a-z0-9_.+-]*=y' "../configs/zn_m2.config"); do
+            grep -q "^${p}\$" .config || echo "MISSING: ${p}"
+          done
+
+      - name: 缓存已下载的源码包
+        uses: actions/cache@v4
+        with:
+          path: openwrt/dl
+          key: dl-${{ hashFiles('**/configs/zn_m2.config') }}-${{ hashFiles('upstream.txt') }}
+          restore-keys: dl-
+
+      - name: 下载源码包
+        run: cd openwrt && make -j"$(nproc)" download || make -j1 download V=s
+
+      - name: 编译
+        run: |
+          cd openwrt
+          make -j"$(nproc)" || make -j1 V=s
+
+      - name: 检查产物
+        run: |
+          cd openwrt
+          ls -lh bin/targets/qualcommax/ipq60xx/
+          ls bin/targets/qualcommax/ipq60xx/*zn_m2*sysupgrade* >/dev/null
+
+      - name: 上传 artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: zn-m2-${{ steps.meta.outputs.tag }}
+          path: |
+            openwrt/bin/targets/qualcommax/ipq60xx/*zn_m2*
+            upstream.txt
+          retention-days: 14
+
+      - name: 发 Release
+        if: github.event_name != 'push'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: zn-m2-${{ steps.meta.outputs.tag }}
+          name: ZN-M2 ${{ steps.meta.outputs.tag }}
+          files: openwrt/bin/targets/qualcommax/ipq60xx/*zn_m2*
+          body: |
+            官方 openwrt/openwrt + ZN-M2 移植补丁（非下游树），`kmod-rkp-ipid` 同编。
+            首次刷入先试 initramfs，并留一份现网固件当回滚基线。

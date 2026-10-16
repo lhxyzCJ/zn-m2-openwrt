@@ -1,0 +1,70 @@
+zn-m2-live.dts: Warning (unit_address_vs_reg): /memory: node has a reg or ranges property, but no unit name
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_resource/port@0: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_resource/port@1: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_resource/port@2: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_resource/port@3: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_resource/port@4: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_resource/port@5: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_resource/port@6: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_resource/port@7: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@0: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@0/l1scheduler/group@0: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@0/l0scheduler/group@0: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@0/l0scheduler/group@1: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@0/l0scheduler/group@2: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@0/l0scheduler/group@3: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@1: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@1/l1scheduler/group@0: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@1/l1scheduler/group@1: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@1/l0scheduler/group@0: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@2: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@2/l1scheduler/group@0: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@2/l1scheduler/group@1: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@2/l0scheduler/group@0: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@3: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@3/l1scheduler/group@0: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@3/l1scheduler/group@1: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@3/l0scheduler/group@0: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@4: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@4/l1scheduler/group@0: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@4/l1scheduler/group@1: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@4/l0scheduler/group@0: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@5: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@5/l1scheduler/group@0: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@5/l1scheduler/group@1: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@5/l0scheduler/group@0: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@6: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@6/l1scheduler/group@0: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@6/l1scheduler/group@1: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@6/l0scheduler/group@0: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@7: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@7/l1scheduler/group@0: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@7/l1scheduler/group@1: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/port_scheduler_config/port@7/l0scheduler/group@0: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/qcom,port_phyinfo/port@1: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/qcom,port_phyinfo/port@2: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/qcom,port_phyinfo/port@4: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/ess-instance/ess-switch@3a000000/qcom,port_phyinfo/port@5: node has a unit name, but no reg or ranges property
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/dp1: node has a reg or ranges property, but no unit name
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/dp2: node has a reg or ranges property, but no unit name
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/dp3: node has a reg or ranges property, but no unit name
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/dp4: node has a reg or ranges property, but no unit name
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/dp5: node has a reg or ranges property, but no unit name
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/dp5-syn: node has a reg or ranges property, but no unit name
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/nss-common: node has a reg or ranges property, but no unit name
+zn-m2-live.dts: Warning (unit_address_vs_reg): /soc@0/qcom,nss_crypto/eip197_node: node has a reg or ranges property, but no unit name
+zn-m2-live.dts: Warning (simple_bus_reg): /soc@0/bias-pll-cc-clk: missing or empty reg/ranges property
+zn-m2-live.dts: Warning (simple_bus_reg): /soc@0/bias-pll-nss-noc-clk: missing or empty reg/ranges property
+zn-m2-live.dts: Warning (simple_bus_reg): /soc@0/ess-instance: missing or empty reg/ranges property
+zn-m2-live.dts: Warning (simple_bus_reg): /soc@0/dp1: simple-bus unit address format error, expected "3a001000"
+zn-m2-live.dts: Warning (simple_bus_reg): /soc@0/dp2: simple-bus unit address format error, expected "3a001200"
+zn-m2-live.dts: Warning (simple_bus_reg): /soc@0/dp3: simple-bus unit address format error, expected "3a001400"
+zn-m2-live.dts: Warning (simple_bus_reg): /soc@0/dp4: simple-bus unit address format error, expected "3a001600"
+zn-m2-live.dts: Warning (simple_bus_reg): /soc@0/dp5: simple-bus unit address format error, expected "3a001800"
+zn-m2-live.dts: Warning (simple_bus_reg): /soc@0/dp5-syn: simple-bus unit address format error, expected "3a003000"
+zn-m2-live.dts: Warning (simple_bus_reg): /soc@0/nss-common: simple-bus unit address format error, expected "1868010"
+zn-m2-live.dts: Warning (simple_bus_reg): /soc@0/nss@40000000: simple-bus unit address format error, expected "39000000"
+zn-m2-live.dts: Warning (simple_bus_reg): /soc@0/qcom,nss_crypto: missing or empty reg/ranges property
+zn-m2-live.dts: Warning (simple_bus_reg): /soc@0/nss-macsec0: missing or empty reg/ranges property
+zn-m2-live.dts: Warning (avoid_unnecessary_addr_size): /soc@0/nand-controller@79b0000/nand@0: unnecessary #address-cells/#size-cells without "ranges", "dma-ranges" or child "reg" property
+zn-m2-live.dts: Warning (unique_unit_address): /soc@0/spi@78b6000: duplicate unit-address (also used in node /soc@0/i2c@78b6000)

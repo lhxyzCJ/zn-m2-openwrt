@@ -1,0 +1,9 @@
+console=ttyMSM0,115200n8 ubi.mtd=rootfs root=mtd:ubi_rootfs rootfstype=squashfs rootwait root=/dev/ubiblock0_1
+---
+Package ipq-wifi-zn_m2 (2025.11.15~7c6b7545-r1) is installed on root and has the following files:
+/rootfs-overlay/lib/firmware/ath11k/IPQ6018/hw1.0/board-2.bin
+--- files md5 ---
+535d125fb6a7a84174a13974f7f7323a  /lib/firmware/ath11k/IPQ6018/hw1.0/board-2.bin
+38386c43183812ff17f44d6360e102b1  /lib/firmware/IPQ6018/board-2.bin
+--- fdt size ---
+-r--------    1 root     root         40960 Oct 16 22:21 /sys/firmware/fdt

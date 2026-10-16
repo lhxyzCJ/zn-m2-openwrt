@@ -1,0 +1,1010 @@
+[
+  {
+    "name": "ipq5018-ax6000.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-ax6000.dts",
+    "sha": "f906c4b8df2ccfba3a9f72f774e7217ffb1795f3",
+    "size": 11626,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq5018-ax6000.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq5018-ax6000.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/f906c4b8df2ccfba3a9f72f774e7217ffb1795f3",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq5018-ax6000.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq5018-ax6000.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/f906c4b8df2ccfba3a9f72f774e7217ffb1795f3",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq5018-ax6000.dts"
+    }
+  },
+  {
+    "name": "ipq5018-ess.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq5018-ess.dtsi",
+    "sha": "384d7e36f53c1e3745dfc497e1475ef7d81b99d1",
+    "size": 3097,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq5018-ess.dtsi?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq5018-ess.dtsi",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/384d7e36f53c1e3745dfc497e1475ef7d81b99d1",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq5018-ess.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq5018-ess.dtsi?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/384d7e36f53c1e3745dfc497e1475ef7d81b99d1",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq5018-ess.dtsi"
+    }
+  },
+  {
+    "name": "ipq5018-gl-b3000.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-gl-b3000.dts",
+    "sha": "a6bd7a323206b7e5769a3555b3034d607291aab4",
+    "size": 7509,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq5018-gl-b3000.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq5018-gl-b3000.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/a6bd7a323206b7e5769a3555b3034d607291aab4",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq5018-gl-b3000.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq5018-gl-b3000.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/a6bd7a323206b7e5769a3555b3034d607291aab4",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq5018-gl-b3000.dts"
+    }
+  },
+  {
+    "name": "ipq5018-mr5500.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-mr5500.dts",
+    "sha": "a92a60482b1d3704a1d8dd92e652e7fc959ed21b",
+    "size": 6866,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq5018-mr5500.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq5018-mr5500.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/a92a60482b1d3704a1d8dd92e652e7fc959ed21b",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq5018-mr5500.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq5018-mr5500.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/a92a60482b1d3704a1d8dd92e652e7fc959ed21b",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq5018-mr5500.dts"
+    }
+  },
+  {
+    "name": "ipq5018-mx-base.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq5018-mx-base.dtsi",
+    "sha": "27d0236926e4c7fbb18a9000698e7181fe2be0ad",
+    "size": 5093,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq5018-mx-base.dtsi?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq5018-mx-base.dtsi",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/27d0236926e4c7fbb18a9000698e7181fe2be0ad",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq5018-mx-base.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq5018-mx-base.dtsi?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/27d0236926e4c7fbb18a9000698e7181fe2be0ad",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq5018-mx-base.dtsi"
+    }
+  },
+  {
+    "name": "ipq5018-mx2000.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-mx2000.dts",
+    "sha": "e254f03439093775dbc105cd3d7c3c639af1c359",
+    "size": 4986,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq5018-mx2000.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq5018-mx2000.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/e254f03439093775dbc105cd3d7c3c639af1c359",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq5018-mx2000.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq5018-mx2000.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/e254f03439093775dbc105cd3d7c3c639af1c359",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq5018-mx2000.dts"
+    }
+  },
+  {
+    "name": "ipq5018-mx5500.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-mx5500.dts",
+    "sha": "f7a6936b38021c7d5d7570a51937c7731a1bed57",
+    "size": 4105,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq5018-mx5500.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq5018-mx5500.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/f7a6936b38021c7d5d7570a51937c7731a1bed57",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq5018-mx5500.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq5018-mx5500.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/f7a6936b38021c7d5d7570a51937c7731a1bed57",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq5018-mx5500.dts"
+    }
+  },
+  {
+    "name": "ipq5018-rax3000q.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-rax3000q.dts",
+    "sha": "432da2d80da6d02844fe29b64f44b04f24bbb5cb",
+    "size": 7375,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq5018-rax3000q.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq5018-rax3000q.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/432da2d80da6d02844fe29b64f44b04f24bbb5cb",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq5018-rax3000q.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq5018-rax3000q.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/432da2d80da6d02844fe29b64f44b04f24bbb5cb",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq5018-rax3000q.dts"
+    }
+  },
+  {
+    "name": "ipq5018-re-cs-03.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-re-cs-03.dts",
+    "sha": "c533f1f9ef451b9cb825c3f6cb3a1bfb8481627e",
+    "size": 9656,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq5018-re-cs-03.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq5018-re-cs-03.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/c533f1f9ef451b9cb825c3f6cb3a1bfb8481627e",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq5018-re-cs-03.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq5018-re-cs-03.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/c533f1f9ef451b9cb825c3f6cb3a1bfb8481627e",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq5018-re-cs-03.dts"
+    }
+  },
+  {
+    "name": "ipq5018-redmi-ax5400.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-redmi-ax5400.dts",
+    "sha": "3d4fb8b6e262e679285c94268a0241a81a8068a3",
+    "size": 10223,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq5018-redmi-ax5400.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq5018-redmi-ax5400.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/3d4fb8b6e262e679285c94268a0241a81a8068a3",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq5018-redmi-ax5400.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq5018-redmi-ax5400.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/3d4fb8b6e262e679285c94268a0241a81a8068a3",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq5018-redmi-ax5400.dts"
+    }
+  },
+  {
+    "name": "ipq5018-spnmx56.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-spnmx56.dts",
+    "sha": "dc287ce5ff41905fe969372ef2c78a91151f6fe9",
+    "size": 4525,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq5018-spnmx56.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq5018-spnmx56.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/dc287ce5ff41905fe969372ef2c78a91151f6fe9",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq5018-spnmx56.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq5018-spnmx56.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/dc287ce5ff41905fe969372ef2c78a91151f6fe9",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq5018-spnmx56.dts"
+    }
+  },
+  {
+    "name": "ipq6000-360v6.dts",
+    "path": "target/linux/qualcommax/dts/ipq6000-360v6.dts",
+    "sha": "1b9382414f68770cc0ebbb24195fb3bfc814a96d",
+    "size": 3409,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6000-360v6.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6000-360v6.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/1b9382414f68770cc0ebbb24195fb3bfc814a96d",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq6000-360v6.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6000-360v6.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/1b9382414f68770cc0ebbb24195fb3bfc814a96d",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6000-360v6.dts"
+    }
+  },
+  {
+    "name": "ipq6000-ap3000-2c.dts",
+    "path": "target/linux/qualcommax/dts/ipq6000-ap3000-2c.dts",
+    "sha": "ff232e581231c2ff26b46e5d18900d080fedd205",
+    "size": 6155,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6000-ap3000-2c.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6000-ap3000-2c.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/ff232e581231c2ff26b46e5d18900d080fedd205",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq6000-ap3000-2c.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6000-ap3000-2c.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/ff232e581231c2ff26b46e5d18900d080fedd205",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6000-ap3000-2c.dts"
+    }
+  },
+  {
+    "name": "ipq6000-ax18.dts",
+    "path": "target/linux/qualcommax/dts/ipq6000-ax18.dts",
+    "sha": "e887ff87aecf0e441a618f7b75018adee8ea35d2",
+    "size": 3504,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6000-ax18.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6000-ax18.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/e887ff87aecf0e441a618f7b75018adee8ea35d2",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq6000-ax18.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6000-ax18.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/e887ff87aecf0e441a618f7b75018adee8ea35d2",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6000-ax18.dts"
+    }
+  },
+  {
+    "name": "ipq6000-ax5-jdcloud.dts",
+    "path": "target/linux/qualcommax/dts/ipq6000-ax5-jdcloud.dts",
+    "sha": "da2950948e74812ac8e301288b1486d4488663e8",
+    "size": 434,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6000-ax5-jdcloud.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6000-ax5-jdcloud.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/da2950948e74812ac8e301288b1486d4488663e8",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq6000-ax5-jdcloud.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6000-ax5-jdcloud.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/da2950948e74812ac8e301288b1486d4488663e8",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6000-ax5-jdcloud.dts"
+    }
+  },
+  {
+    "name": "ipq6000-gl-ax1800.dts",
+    "path": "target/linux/qualcommax/dts/ipq6000-gl-ax1800.dts",
+    "sha": "70b4b80a0bd88aae916e3bc088a3392487338f6c",
+    "size": 813,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6000-gl-ax1800.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6000-gl-ax1800.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/70b4b80a0bd88aae916e3bc088a3392487338f6c",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq6000-gl-ax1800.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6000-gl-ax1800.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/70b4b80a0bd88aae916e3bc088a3392487338f6c",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6000-gl-ax1800.dts"
+    }
+  },
+  {
+    "name": "ipq6000-gl-axt1800.dts",
+    "path": "target/linux/qualcommax/dts/ipq6000-gl-axt1800.dts",
+    "sha": "5e93c862da3a855e58619f15a4a32481a6b1a6fa",
+    "size": 2086,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6000-gl-axt1800.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6000-gl-axt1800.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/5e93c862da3a855e58619f15a4a32481a6b1a6fa",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq6000-gl-axt1800.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6000-gl-axt1800.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/5e93c862da3a855e58619f15a4a32481a6b1a6fa",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6000-gl-axt1800.dts"
+    }
+  },
+  {
+    "name": "ipq6000-glinet.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq6000-glinet.dtsi",
+    "sha": "6c2a8e7f5ab09508ec5d5e2a9d86256dd94de101",
+    "size": 3708,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6000-glinet.dtsi?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6000-glinet.dtsi",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/6c2a8e7f5ab09508ec5d5e2a9d86256dd94de101",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq6000-glinet.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6000-glinet.dtsi?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/6c2a8e7f5ab09508ec5d5e2a9d86256dd94de101",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6000-glinet.dtsi"
+    }
+  },
+  {
+    "name": "ipq6000-link.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq6000-link.dtsi",
+    "sha": "10ce315035afea4ffc03762307e4334f043338ef",
+    "size": 1990,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6000-link.dtsi?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6000-link.dtsi",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/10ce315035afea4ffc03762307e4334f043338ef",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq6000-link.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6000-link.dtsi?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/10ce315035afea4ffc03762307e4334f043338ef",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6000-link.dtsi"
+    }
+  },
+  {
+    "name": "ipq6000-mr7350.dts",
+    "path": "target/linux/qualcommax/dts/ipq6000-mr7350.dts",
+    "sha": "284f9356a60ce89cfa220e6d35157a6dfb6f5ce9",
+    "size": 4889,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6000-mr7350.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6000-mr7350.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/284f9356a60ce89cfa220e6d35157a6dfb6f5ce9",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq6000-mr7350.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6000-mr7350.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/284f9356a60ce89cfa220e6d35157a6dfb6f5ce9",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6000-mr7350.dts"
+    }
+  },
+  {
+    "name": "ipq6000-nn6000-v1.dts",
+    "path": "target/linux/qualcommax/dts/ipq6000-nn6000-v1.dts",
+    "sha": "b4686155efa1f7ec50b4770d3791b92ca3eee1e4",
+    "size": 1480,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6000-nn6000-v1.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6000-nn6000-v1.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/b4686155efa1f7ec50b4770d3791b92ca3eee1e4",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq6000-nn6000-v1.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6000-nn6000-v1.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/b4686155efa1f7ec50b4770d3791b92ca3eee1e4",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6000-nn6000-v1.dts"
+    }
+  },
+  {
+    "name": "ipq6000-nn6000-v2.dts",
+    "path": "target/linux/qualcommax/dts/ipq6000-nn6000-v2.dts",
+    "sha": "2cebfe15f84d4fbbc97fcf2da8bce0d1a63d4298",
+    "size": 1976,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6000-nn6000-v2.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6000-nn6000-v2.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/2cebfe15f84d4fbbc97fcf2da8bce0d1a63d4298",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq6000-nn6000-v2.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6000-nn6000-v2.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/2cebfe15f84d4fbbc97fcf2da8bce0d1a63d4298",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6000-nn6000-v2.dts"
+    }
+  },
+  {
+    "name": "ipq6000-re-ss-01.dts",
+    "path": "target/linux/qualcommax/dts/ipq6000-re-ss-01.dts",
+    "sha": "b53ae071b6eb72cec47971e96a1ceb491f341d88",
+    "size": 3555,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6000-re-ss-01.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6000-re-ss-01.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/b53ae071b6eb72cec47971e96a1ceb491f341d88",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq6000-re-ss-01.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6000-re-ss-01.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/b53ae071b6eb72cec47971e96a1ceb491f341d88",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6000-re-ss-01.dts"
+    }
+  },
+  {
+    "name": "ipq6000-rm1800.dts",
+    "path": "target/linux/qualcommax/dts/ipq6000-rm1800.dts",
+    "sha": "bd3b7387519ca29ff2f8b1e28ce9efc6db63098e",
+    "size": 553,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6000-rm1800.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6000-rm1800.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/bd3b7387519ca29ff2f8b1e28ce9efc6db63098e",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq6000-rm1800.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6000-rm1800.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/bd3b7387519ca29ff2f8b1e28ce9efc6db63098e",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6000-rm1800.dts"
+    }
+  },
+  {
+    "name": "ipq6000-xiaomi.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq6000-xiaomi.dtsi",
+    "sha": "884f19858d30f1524292bc37a4e148d41d9c2e53",
+    "size": 3026,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6000-xiaomi.dtsi?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6000-xiaomi.dtsi",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/884f19858d30f1524292bc37a4e148d41d9c2e53",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq6000-xiaomi.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6000-xiaomi.dtsi?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/884f19858d30f1524292bc37a4e148d41d9c2e53",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6000-xiaomi.dtsi"
+    }
+  },
+  {
+    "name": "ipq6010-anysafe-e1.dts",
+    "path": "target/linux/qualcommax/dts/ipq6010-anysafe-e1.dts",
+    "sha": "630bb6e6193630b96af293a9ffd2fd887f1aa33b",
+    "size": 9265,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6010-anysafe-e1.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6010-anysafe-e1.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/630bb6e6193630b96af293a9ffd2fd887f1aa33b",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq6010-anysafe-e1.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6010-anysafe-e1.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/630bb6e6193630b96af293a9ffd2fd887f1aa33b",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6010-anysafe-e1.dts"
+    }
+  },
+  {
+    "name": "ipq6010-ly1800.dts",
+    "path": "target/linux/qualcommax/dts/ipq6010-ly1800.dts",
+    "sha": "ad9b351e44e36b91c056e8b8f13422c2a9a9c3c4",
+    "size": 3610,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6010-ly1800.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6010-ly1800.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/ad9b351e44e36b91c056e8b8f13422c2a9a9c3c4",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq6010-ly1800.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6010-ly1800.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/ad9b351e44e36b91c056e8b8f13422c2a9a9c3c4",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6010-ly1800.dts"
+    }
+  },
+  {
+    "name": "ipq6010-re-cs-02.dts",
+    "path": "target/linux/qualcommax/dts/ipq6010-re-cs-02.dts",
+    "sha": "0e7f2750b1b1caf47528b1d7050f9297d02c3bc1",
+    "size": 4829,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6010-re-cs-02.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6010-re-cs-02.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/0e7f2750b1b1caf47528b1d7050f9297d02c3bc1",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq6010-re-cs-02.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6010-re-cs-02.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/0e7f2750b1b1caf47528b1d7050f9297d02c3bc1",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6010-re-cs-02.dts"
+    }
+  },
+  {
+    "name": "ipq6010-re-cs-07.dts",
+    "path": "target/linux/qualcommax/dts/ipq6010-re-cs-07.dts",
+    "sha": "df91fe9a95f6c336d53a7ff0fb3f66ed298b9388",
+    "size": 3852,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6010-re-cs-07.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6010-re-cs-07.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/df91fe9a95f6c336d53a7ff0fb3f66ed298b9388",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq6010-re-cs-07.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6010-re-cs-07.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/df91fe9a95f6c336d53a7ff0fb3f66ed298b9388",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6010-re-cs-07.dts"
+    }
+  },
+  {
+    "name": "ipq6018-256m.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq6018-256m.dtsi",
+    "sha": "d8e7c7634825cefdea9a037ca3f4920d7ff43f20",
+    "size": 241,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6018-256m.dtsi?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6018-256m.dtsi",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/d8e7c7634825cefdea9a037ca3f4920d7ff43f20",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq6018-256m.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6018-256m.dtsi?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/d8e7c7634825cefdea9a037ca3f4920d7ff43f20",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6018-256m.dtsi"
+    }
+  },
+  {
+    "name": "ipq6018-512m.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq6018-512m.dtsi",
+    "sha": "6298123c2e1ea82f9528b6718ad9362ee1513a72",
+    "size": 241,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6018-512m.dtsi?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6018-512m.dtsi",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/6298123c2e1ea82f9528b6718ad9362ee1513a72",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq6018-512m.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6018-512m.dtsi?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/6298123c2e1ea82f9528b6718ad9362ee1513a72",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6018-512m.dtsi"
+    }
+  },
+  {
+    "name": "ipq6018-cmiot.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq6018-cmiot.dtsi",
+    "sha": "2ec4c3859811b4d873f24d7e25936c69c640ed07",
+    "size": 3545,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6018-cmiot.dtsi?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6018-cmiot.dtsi",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/2ec4c3859811b4d873f24d7e25936c69c640ed07",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq6018-cmiot.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6018-cmiot.dtsi?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/2ec4c3859811b4d873f24d7e25936c69c640ed07",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6018-cmiot.dtsi"
+    }
+  },
+  {
+    "name": "ipq6018-cpufreq.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq6018-cpufreq.dtsi",
+    "sha": "5bbd2f4d9ec779673bf8252b50c8c9a713098798",
+    "size": 148,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6018-cpufreq.dtsi?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6018-cpufreq.dtsi",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/5bbd2f4d9ec779673bf8252b50c8c9a713098798",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq6018-cpufreq.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6018-cpufreq.dtsi?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/5bbd2f4d9ec779673bf8252b50c8c9a713098798",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6018-cpufreq.dtsi"
+    }
+  },
+  {
+    "name": "ipq6018-ess.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq6018-ess.dtsi",
+    "sha": "55912f81ede45840ad2585b9301feff0ec631ba1",
+    "size": 11531,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6018-ess.dtsi?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6018-ess.dtsi",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/55912f81ede45840ad2585b9301feff0ec631ba1",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq6018-ess.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6018-ess.dtsi?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/55912f81ede45840ad2585b9301feff0ec631ba1",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6018-ess.dtsi"
+    }
+  },
+  {
+    "name": "ipq6018-m2.dts",
+    "path": "target/linux/qualcommax/dts/ipq6018-m2.dts",
+    "sha": "f805630e0f6061c90a1485061f654f8985d221df",
+    "size": 1126,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6018-m2.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6018-m2.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/f805630e0f6061c90a1485061f654f8985d221df",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq6018-m2.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6018-m2.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/f805630e0f6061c90a1485061f654f8985d221df",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6018-m2.dts"
+    }
+  },
+  {
+    "name": "ipq6018-nss.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq6018-nss.dtsi",
+    "sha": "d05ff84b532cf2827758febbdf10aa7a7afb3e75",
+    "size": 5095,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6018-nss.dtsi?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6018-nss.dtsi",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/d05ff84b532cf2827758febbdf10aa7a7afb3e75",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq6018-nss.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq6018-nss.dtsi?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/d05ff84b532cf2827758febbdf10aa7a7afb3e75",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq6018-nss.dtsi"
+    }
+  },
+  {
+    "name": "ipq8070-cax1800.dts",
+    "path": "target/linux/qualcommax/dts/ipq8070-cax1800.dts",
+    "sha": "092781e876ec048f9272cbf194a0b74e3607bba8",
+    "size": 5409,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8070-cax1800.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8070-cax1800.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/092781e876ec048f9272cbf194a0b74e3607bba8",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq8070-cax1800.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8070-cax1800.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/092781e876ec048f9272cbf194a0b74e3607bba8",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8070-cax1800.dts"
+    }
+  },
+  {
+    "name": "ipq8070-rm2-6.dts",
+    "path": "target/linux/qualcommax/dts/ipq8070-rm2-6.dts",
+    "sha": "5e94ad3fe78d4c4744cda6530dfafa0257c60a93",
+    "size": 4099,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8070-rm2-6.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8070-rm2-6.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/5e94ad3fe78d4c4744cda6530dfafa0257c60a93",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq8070-rm2-6.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8070-rm2-6.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/5e94ad3fe78d4c4744cda6530dfafa0257c60a93",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8070-rm2-6.dts"
+    }
+  },
+  {
+    "name": "ipq8071-ap8220.dts",
+    "path": "target/linux/qualcommax/dts/ipq8071-ap8220.dts",
+    "sha": "79d1fe8161840da7b5c453dd53fac02f2b1d7f8c",
+    "size": 5116,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8071-ap8220.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8071-ap8220.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/79d1fe8161840da7b5c453dd53fac02f2b1d7f8c",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq8071-ap8220.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8071-ap8220.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/79d1fe8161840da7b5c453dd53fac02f2b1d7f8c",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8071-ap8220.dts"
+    }
+  },
+  {
+    "name": "ipq8071-ax3600.dts",
+    "path": "target/linux/qualcommax/dts/ipq8071-ax3600.dts",
+    "sha": "3af5a347134ed6886148156e8d4c83bce17b8eed",
+    "size": 1237,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8071-ax3600.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8071-ax3600.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/3af5a347134ed6886148156e8d4c83bce17b8eed",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq8071-ax3600.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8071-ax3600.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/3af5a347134ed6886148156e8d4c83bce17b8eed",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8071-ax3600.dts"
+    }
+  },
+  {
+    "name": "ipq8071-ax3600.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq8071-ax3600.dtsi",
+    "sha": "2a8368cbe1b312decb112e6ca54c9460e78c5c39",
+    "size": 3083,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8071-ax3600.dtsi?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8071-ax3600.dtsi",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/2a8368cbe1b312decb112e6ca54c9460e78c5c39",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq8071-ax3600.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8071-ax3600.dtsi?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/2a8368cbe1b312decb112e6ca54c9460e78c5c39",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8071-ax3600.dtsi"
+    }
+  },
+  {
+    "name": "ipq8071-ax6.dts",
+    "path": "target/linux/qualcommax/dts/ipq8071-ax6.dts",
+    "sha": "c66fb95bc7f31280e9202e3dfa0e28320fbd68f3",
+    "size": 726,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8071-ax6.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8071-ax6.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/c66fb95bc7f31280e9202e3dfa0e28320fbd68f3",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq8071-ax6.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8071-ax6.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/c66fb95bc7f31280e9202e3dfa0e28320fbd68f3",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8071-ax6.dts"
+    }
+  },
+  {
+    "name": "ipq8071-eap102.dts",
+    "path": "target/linux/qualcommax/dts/ipq8071-eap102.dts",
+    "sha": "17e94dc2293f4ac6b76f4e12c3f3cd1e63628a4f",
+    "size": 6501,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8071-eap102.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8071-eap102.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/17e94dc2293f4ac6b76f4e12c3f3cd1e63628a4f",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq8071-eap102.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8071-eap102.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/17e94dc2293f4ac6b76f4e12c3f3cd1e63628a4f",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8071-eap102.dts"
+    }
+  },
+  {
+    "name": "ipq8071-mf269.dts",
+    "path": "target/linux/qualcommax/dts/ipq8071-mf269.dts",
+    "sha": "c34957bd910f1b941a26adaea077170ddc7b726f",
+    "size": 7155,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8071-mf269.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8071-mf269.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/c34957bd910f1b941a26adaea077170ddc7b726f",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq8071-mf269.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8071-mf269.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/c34957bd910f1b941a26adaea077170ddc7b726f",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8071-mf269.dts"
+    }
+  },
+  {
+    "name": "ipq8072-301w.dts",
+    "path": "target/linux/qualcommax/dts/ipq8072-301w.dts",
+    "sha": "8124e2d1a7137b2fd862d6e88364175fe19d9f9b",
+    "size": 7362,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8072-301w.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8072-301w.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/8124e2d1a7137b2fd862d6e88364175fe19d9f9b",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq8072-301w.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8072-301w.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/8124e2d1a7137b2fd862d6e88364175fe19d9f9b",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8072-301w.dts"
+    }
+  },
+  {
+    "name": "ipq8072-aw1000.dts",
+    "path": "target/linux/qualcommax/dts/ipq8072-aw1000.dts",
+    "sha": "c57002982b5024b59bf2cd9b7d2fbe527278f76d",
+    "size": 5760,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8072-aw1000.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8072-aw1000.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/c57002982b5024b59bf2cd9b7d2fbe527278f76d",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq8072-aw1000.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8072-aw1000.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/c57002982b5024b59bf2cd9b7d2fbe527278f76d",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8072-aw1000.dts"
+    }
+  },
+  {
+    "name": "ipq8072-ax9000.dts",
+    "path": "target/linux/qualcommax/dts/ipq8072-ax9000.dts",
+    "sha": "a3119490e2467aabc2026243782dffd093198538",
+    "size": 5629,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8072-ax9000.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8072-ax9000.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/a3119490e2467aabc2026243782dffd093198538",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq8072-ax9000.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8072-ax9000.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/a3119490e2467aabc2026243782dffd093198538",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8072-ax9000.dts"
+    }
+  },
+  {
+    "name": "ipq8072-dl-wrx36.dts",
+    "path": "target/linux/qualcommax/dts/ipq8072-dl-wrx36.dts",
+    "sha": "44845bfee66f71a49fcf41fef8d60e91c23b924e",
+    "size": 4065,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8072-dl-wrx36.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8072-dl-wrx36.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/44845bfee66f71a49fcf41fef8d60e91c23b924e",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq8072-dl-wrx36.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8072-dl-wrx36.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/44845bfee66f71a49fcf41fef8d60e91c23b924e",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8072-dl-wrx36.dts"
+    }
+  },
+  {
+    "name": "ipq8072-haze.dts",
+    "path": "target/linux/qualcommax/dts/ipq8072-haze.dts",
+    "sha": "bc4841da615cf88b8b90c85cd0b0998062161e8a",
+    "size": 4738,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8072-haze.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8072-haze.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/bc4841da615cf88b8b90c85cd0b0998062161e8a",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq8072-haze.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8072-haze.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/bc4841da615cf88b8b90c85cd0b0998062161e8a",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8072-haze.dts"
+    }
+  },
+  {
+    "name": "ipq8072-wax218.dts",
+    "path": "target/linux/qualcommax/dts/ipq8072-wax218.dts",
+    "sha": "e2e5d764ab4d87cf0e772374c0f76cab488e1bc1",
+    "size": 3293,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8072-wax218.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8072-wax218.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/e2e5d764ab4d87cf0e772374c0f76cab488e1bc1",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq8072-wax218.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8072-wax218.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/e2e5d764ab4d87cf0e772374c0f76cab488e1bc1",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8072-wax218.dts"
+    }
+  },
+  {
+    "name": "ipq8072-wax620.dts",
+    "path": "target/linux/qualcommax/dts/ipq8072-wax620.dts",
+    "sha": "8257877b86bff12711010e7edeb05a68199f640c",
+    "size": 3428,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8072-wax620.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8072-wax620.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/8257877b86bff12711010e7edeb05a68199f640c",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq8072-wax620.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8072-wax620.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/8257877b86bff12711010e7edeb05a68199f640c",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8072-wax620.dts"
+    }
+  },
+  {
+    "name": "ipq8072-wpq873.dts",
+    "path": "target/linux/qualcommax/dts/ipq8072-wpq873.dts",
+    "sha": "e625581b1ab04f3fac7bbc01f1bceba5e0ca0cc8",
+    "size": 7748,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8072-wpq873.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8072-wpq873.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/e625581b1ab04f3fac7bbc01f1bceba5e0ca0cc8",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq8072-wpq873.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8072-wpq873.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/e625581b1ab04f3fac7bbc01f1bceba5e0ca0cc8",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8072-wpq873.dts"
+    }
+  },
+  {
+    "name": "ipq8074-512m.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq8074-512m.dtsi",
+    "sha": "dace4008b38bdf1024cfdf61091e7b04e95da026",
+    "size": 299,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8074-512m.dtsi?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8074-512m.dtsi",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/dace4008b38bdf1024cfdf61091e7b04e95da026",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq8074-512m.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8074-512m.dtsi?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/dace4008b38bdf1024cfdf61091e7b04e95da026",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8074-512m.dtsi"
+    }
+  },
+  {
+    "name": "ipq8074-ac-cpu.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq8074-ac-cpu.dtsi",
+    "sha": "a17279f1396c5331b72b52bc24c16bb610bcdefd",
+    "size": 2449,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8074-ac-cpu.dtsi?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8074-ac-cpu.dtsi",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/a17279f1396c5331b72b52bc24c16bb610bcdefd",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq8074-ac-cpu.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8074-ac-cpu.dtsi?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/a17279f1396c5331b72b52bc24c16bb610bcdefd",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8074-ac-cpu.dtsi"
+    }
+  },
+  {
+    "name": "ipq8074-cpr-regulator.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq8074-cpr-regulator.dtsi",
+    "sha": "e351a2e759a54d59cfea9202055486eaf58746d6",
+    "size": 7483,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8074-cpr-regulator.dtsi?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8074-cpr-regulator.dtsi",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/e351a2e759a54d59cfea9202055486eaf58746d6",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq8074-cpr-regulator.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8074-cpr-regulator.dtsi?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/e351a2e759a54d59cfea9202055486eaf58746d6",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8074-cpr-regulator.dtsi"
+    }
+  },
+  {
+    "name": "ipq8074-ess.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq8074-ess.dtsi",
+    "sha": "129266c50d1d38e825e07498ba141487f5748393",
+    "size": 12331,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8074-ess.dtsi?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8074-ess.dtsi",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/129266c50d1d38e825e07498ba141487f5748393",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq8074-ess.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8074-ess.dtsi?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/129266c50d1d38e825e07498ba141487f5748393",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8074-ess.dtsi"
+    }
+  },
+  {
+    "name": "ipq8074-hk-cpu.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq8074-hk-cpu.dtsi",
+    "sha": "ec8f5d0aad1e6c73091445daabed791db4c16d2c",
+    "size": 4385,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8074-hk-cpu.dtsi?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8074-hk-cpu.dtsi",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/ec8f5d0aad1e6c73091445daabed791db4c16d2c",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq8074-hk-cpu.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8074-hk-cpu.dtsi?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/ec8f5d0aad1e6c73091445daabed791db4c16d2c",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8074-hk-cpu.dtsi"
+    }
+  },
+  {
+    "name": "ipq8074-nbg7815.dts",
+    "path": "target/linux/qualcommax/dts/ipq8074-nbg7815.dts",
+    "sha": "1f9c3d3989b5f213aa7cc15422fc2991d6b521ca",
+    "size": 6824,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8074-nbg7815.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8074-nbg7815.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/1f9c3d3989b5f213aa7cc15422fc2991d6b521ca",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq8074-nbg7815.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8074-nbg7815.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/1f9c3d3989b5f213aa7cc15422fc2991d6b521ca",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8074-nbg7815.dts"
+    }
+  },
+  {
+    "name": "ipq8074-nss.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq8074-nss.dtsi",
+    "sha": "0d7e94c02ed1be4f3b3650cb08cd882bf6bad357",
+    "size": 7266,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8074-nss.dtsi?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8074-nss.dtsi",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/0d7e94c02ed1be4f3b3650cb08cd882bf6bad357",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq8074-nss.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8074-nss.dtsi?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/0d7e94c02ed1be4f3b3650cb08cd882bf6bad357",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8074-nss.dtsi"
+    }
+  },
+  {
+    "name": "ipq8074-rax120v2.dts",
+    "path": "target/linux/qualcommax/dts/ipq8074-rax120v2.dts",
+    "sha": "730424197c692f44bfc26a09e5d45905d385b6d7",
+    "size": 9407,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8074-rax120v2.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8074-rax120v2.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/730424197c692f44bfc26a09e5d45905d385b6d7",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq8074-rax120v2.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8074-rax120v2.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/730424197c692f44bfc26a09e5d45905d385b6d7",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8074-rax120v2.dts"
+    }
+  },
+  {
+    "name": "ipq8074-wax630.dts",
+    "path": "target/linux/qualcommax/dts/ipq8074-wax630.dts",
+    "sha": "b1f2447d822f4cb5136c8ac5aa0b82e5c018bde6",
+    "size": 4384,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8074-wax630.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8074-wax630.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/b1f2447d822f4cb5136c8ac5aa0b82e5c018bde6",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq8074-wax630.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8074-wax630.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/b1f2447d822f4cb5136c8ac5aa0b82e5c018bde6",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8074-wax630.dts"
+    }
+  },
+  {
+    "name": "ipq8074-wxr-5950ax12.dts",
+    "path": "target/linux/qualcommax/dts/ipq8074-wxr-5950ax12.dts",
+    "sha": "6173f22ccc9d36658e81c7375a893687be0f978b",
+    "size": 6785,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8074-wxr-5950ax12.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8074-wxr-5950ax12.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/6173f22ccc9d36658e81c7375a893687be0f978b",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq8074-wxr-5950ax12.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8074-wxr-5950ax12.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/6173f22ccc9d36658e81c7375a893687be0f978b",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8074-wxr-5950ax12.dts"
+    }
+  },
+  {
+    "name": "ipq8074-zbt-z800ax.dts",
+    "path": "target/linux/qualcommax/dts/ipq8074-zbt-z800ax.dts",
+    "sha": "a0d1c5b32efbcf3d5c8373762f9bb1b9fff10dcf",
+    "size": 6919,
+    "url": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8074-zbt-z800ax.dts?ref=master",
+    "html_url": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8074-zbt-z800ax.dts",
+    "git_url": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/a0d1c5b32efbcf3d5c8373762f9bb1b9fff10dcf",
+    "download_url": "https://raw.githubusercontent.com/coolsnowwolf/lede/master/target/linux/qualcommax/dts/ipq8074-zbt-z800ax.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/coolsnowwolf/lede/contents/target/linux/qualcommax/dts/ipq8074-zbt-z800ax.dts?ref=master",
+      "git": "https://api.github.com/repos/coolsnowwolf/lede/git/blobs/a0d1c5b32efbcf3d5c8373762f9bb1b9fff10dcf",
+      "html": "https://github.com/coolsnowwolf/lede/blob/master/target/linux/qualcommax/dts/ipq8074-zbt-z800ax.dts"
+    }
+  }
+]

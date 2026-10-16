@@ -1,0 +1,59 @@
+diff --git a/target/linux/qualcommax/ipq60xx/base-files/etc/board.d/01_leds b/target/linux/qualcommax/ipq60xx/base-files/etc/board.d/01_leds
+index 2f39503..83ef3b5 100644
+--- a/target/linux/qualcommax/ipq60xx/base-files/etc/board.d/01_leds
++++ b/target/linux/qualcommax/ipq60xx/base-files/etc/board.d/01_leds
+@@ -40,6 +40,12 @@ netgear,wax610y)
+ 	ucidef_set_led_netdev "lan-port-link" "LAN-PORT-LINK" "green:lan-0" "lan" "link_10 link_100 link_1000 link_2500"
+ 	ucidef_set_led_netdev "lan-port-traffic" "LAN-PORT-TRAFFIC" "orange:lan-1" "lan" "tx rx link_10 link_100 link_1000 link_2500"
+ 	;;
++zn,m2)
++	ucidef_set_led_netdev "wan" "WAN" "blue:wan" "wan" "tx rx"
++	ucidef_set_led_netdev "lan" "LAN" "blue:lan" "lan" "tx rx"
++	ucidef_set_led_netdev "wlan2g" "WLAN 2.4GHz" "blue:wlan2g" "wlan1" "tx rx"
++	ucidef_set_led_netdev "wlan5g" "WLAN 5GHz" "blue:wlan5g" "wlan0" "tx rx"
++	;;
+ esac
+ 
+ board_config_flush
+diff --git a/target/linux/qualcommax/ipq60xx/base-files/etc/board.d/02_network b/target/linux/qualcommax/ipq60xx/base-files/etc/board.d/02_network
+index b8b22bc..33b71a8 100644
+--- a/target/linux/qualcommax/ipq60xx/base-files/etc/board.d/02_network
++++ b/target/linux/qualcommax/ipq60xx/base-files/etc/board.d/02_network
+@@ -33,6 +33,9 @@ ipq60xx_setup_interfaces()
+ 	qihoo,360v6)
+ 		ucidef_set_interfaces_lan_wan "lan1 lan2 lan3" "wan"
+ 		;;
++	zn,m2)
++		ucidef_set_interfaces_lan_wan "lan1 lan2 lan3" "wan"
++		;;
+ 	netgear,wax610|\
+ 	netgear,wax610y|\
+ 	tplink,eap610-outdoor|\
+diff --git a/target/linux/qualcommax/ipq60xx/base-files/etc/hotplug.d/firmware/11-ath11k-caldata b/target/linux/qualcommax/ipq60xx/base-files/etc/hotplug.d/firmware/11-ath11k-caldata
+index 8d32356..52724d7 100644
+--- a/target/linux/qualcommax/ipq60xx/base-files/etc/hotplug.d/firmware/11-ath11k-caldata
++++ b/target/linux/qualcommax/ipq60xx/base-files/etc/hotplug.d/firmware/11-ath11k-caldata
+@@ -69,6 +69,9 @@ case "$FIRMWARE" in
+ 	yuncore,fap650)
+ 		caldata_extract "0:art" 0x1000 0x20000
+ 		;;
++	zn,m2)
++		caldata_extract "0:art" 0x1000 0x10000
++		;;
+ 	esac
+ 	;;
+ "ath11k/QCN9074/hw1.0/cal-pci-0000:01:00.0.bin")
+diff --git a/target/linux/qualcommax/ipq60xx/base-files/lib/upgrade/platform.sh b/target/linux/qualcommax/ipq60xx/base-files/lib/upgrade/platform.sh
+index d313635..e572688 100644
+--- a/target/linux/qualcommax/ipq60xx/base-files/lib/upgrade/platform.sh
++++ b/target/linux/qualcommax/ipq60xx/base-files/lib/upgrade/platform.sh
+@@ -118,7 +118,8 @@ platform_do_upgrade() {
+ 	glinet,gl-ax1800|\
+ 	glinet,gl-axt1800|\
+ 	netgear,wax214|\
+-	qihoo,360v6)
++	qihoo,360v6|\
++	zn,m2)
+ 		nand_do_upgrade "$1"
+ 		;;
+ 	netgear,wax610|\

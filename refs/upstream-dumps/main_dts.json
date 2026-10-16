@@ -1,0 +1,1730 @@
+[
+  {
+    "name": "ipq5018-archer-ax55-v1.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-archer-ax55-v1.dts",
+    "sha": "fe1f58f36d107dfd2c53dc219aa9848831a1a4cc",
+    "size": 10306,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-archer-ax55-v1.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-archer-ax55-v1.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/fe1f58f36d107dfd2c53dc219aa9848831a1a4cc",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq5018-archer-ax55-v1.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-archer-ax55-v1.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/fe1f58f36d107dfd2c53dc219aa9848831a1a4cc",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-archer-ax55-v1.dts"
+    }
+  },
+  {
+    "name": "ipq5018-ax6000.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-ax6000.dts",
+    "sha": "e52473e600e3f2e28f6ea664d9121c2340f5cdc6",
+    "size": 10261,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-ax6000.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-ax6000.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/e52473e600e3f2e28f6ea664d9121c2340f5cdc6",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq5018-ax6000.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-ax6000.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/e52473e600e3f2e28f6ea664d9121c2340f5cdc6",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-ax6000.dts"
+    }
+  },
+  {
+    "name": "ipq5018-ax830.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-ax830.dts",
+    "sha": "cb0b75337e787fe8995893d72bf385d0510179f1",
+    "size": 6306,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-ax830.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-ax830.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/cb0b75337e787fe8995893d72bf385d0510179f1",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq5018-ax830.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-ax830.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/cb0b75337e787fe8995893d72bf385d0510179f1",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-ax830.dts"
+    }
+  },
+  {
+    "name": "ipq5018-ax850.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-ax850.dts",
+    "sha": "b6d9431e799109500e7cf2b1581ef15e0135f1ea",
+    "size": 6516,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-ax850.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-ax850.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/b6d9431e799109500e7cf2b1581ef15e0135f1ea",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq5018-ax850.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-ax850.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/b6d9431e799109500e7cf2b1581ef15e0135f1ea",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-ax850.dts"
+    }
+  },
+  {
+    "name": "ipq5018-dr5018s.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-dr5018s.dts",
+    "sha": "204beefdbfd546a9f4ab4c38b8d7c93f38295f05",
+    "size": 7190,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-dr5018s.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-dr5018s.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/204beefdbfd546a9f4ab4c38b8d7c93f38295f05",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq5018-dr5018s.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-dr5018s.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/204beefdbfd546a9f4ab4c38b8d7c93f38295f05",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-dr5018s.dts"
+    }
+  },
+  {
+    "name": "ipq5018-eap650-outdoor-v1.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-eap650-outdoor-v1.dts",
+    "sha": "00cb6a43a4c31b492b701b25bf94f52958a4d091",
+    "size": 5734,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-eap650-outdoor-v1.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-eap650-outdoor-v1.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/00cb6a43a4c31b492b701b25bf94f52958a4d091",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq5018-eap650-outdoor-v1.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-eap650-outdoor-v1.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/00cb6a43a4c31b492b701b25bf94f52958a4d091",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-eap650-outdoor-v1.dts"
+    }
+  },
+  {
+    "name": "ipq5018-exigo-hub-d50-5g.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-exigo-hub-d50-5g.dts",
+    "sha": "620ed1c11ad4504e59b33000d8a4e480330be064",
+    "size": 8133,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-exigo-hub-d50-5g.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-exigo-hub-d50-5g.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/620ed1c11ad4504e59b33000d8a4e480330be064",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq5018-exigo-hub-d50-5g.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-exigo-hub-d50-5g.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/620ed1c11ad4504e59b33000d8a4e480330be064",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-exigo-hub-d50-5g.dts"
+    }
+  },
+  {
+    "name": "ipq5018-gl-b3000.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-gl-b3000.dts",
+    "sha": "829430e9afd53fefcca715348cb06d0d02e68f33",
+    "size": 5478,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-gl-b3000.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-gl-b3000.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/829430e9afd53fefcca715348cb06d0d02e68f33",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq5018-gl-b3000.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-gl-b3000.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/829430e9afd53fefcca715348cb06d0d02e68f33",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-gl-b3000.dts"
+    }
+  },
+  {
+    "name": "ipq5018-gl-x2000.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-gl-x2000.dts",
+    "sha": "b11b7f1360eac4b515c903264d170e3ecd514f4e",
+    "size": 9302,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-gl-x2000.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-gl-x2000.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/b11b7f1360eac4b515c903264d170e3ecd514f4e",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq5018-gl-x2000.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-gl-x2000.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/b11b7f1360eac4b515c903264d170e3ecd514f4e",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-gl-x2000.dts"
+    }
+  },
+  {
+    "name": "ipq5018-mr2000.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-mr2000.dts",
+    "sha": "9c571ec4b88125a40ea8850be5232d7e0de4b981",
+    "size": 4726,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-mr2000.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-mr2000.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/9c571ec4b88125a40ea8850be5232d7e0de4b981",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq5018-mr2000.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-mr2000.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/9c571ec4b88125a40ea8850be5232d7e0de4b981",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-mr2000.dts"
+    }
+  },
+  {
+    "name": "ipq5018-mr3000d-ci.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-mr3000d-ci.dts",
+    "sha": "6bf78760220e6e005da7f3cef0617a7ab733803f",
+    "size": 7381,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-mr3000d-ci.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-mr3000d-ci.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/6bf78760220e6e005da7f3cef0617a7ab733803f",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq5018-mr3000d-ci.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-mr3000d-ci.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/6bf78760220e6e005da7f3cef0617a7ab733803f",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-mr3000d-ci.dts"
+    }
+  },
+  {
+    "name": "ipq5018-mr5500.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-mr5500.dts",
+    "sha": "1cb560ff24b2980a581141778629265a6cfe34a1",
+    "size": 5852,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-mr5500.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-mr5500.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/1cb560ff24b2980a581141778629265a6cfe34a1",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq5018-mr5500.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-mr5500.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/1cb560ff24b2980a581141778629265a6cfe34a1",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-mr5500.dts"
+    }
+  },
+  {
+    "name": "ipq5018-mr80x-v2.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-mr80x-v2.dts",
+    "sha": "ac104cb1afd75c6902c430123102faf89cce5211",
+    "size": 7428,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-mr80x-v2.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-mr80x-v2.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/ac104cb1afd75c6902c430123102faf89cce5211",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq5018-mr80x-v2.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-mr80x-v2.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/ac104cb1afd75c6902c430123102faf89cce5211",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-mr80x-v2.dts"
+    }
+  },
+  {
+    "name": "ipq5018-mx-base.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq5018-mx-base.dtsi",
+    "sha": "9b9cad667dd944d0dc1b59a75e4699304457d6ec",
+    "size": 3146,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-mx-base.dtsi?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-mx-base.dtsi",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/9b9cad667dd944d0dc1b59a75e4699304457d6ec",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq5018-mx-base.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-mx-base.dtsi?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/9b9cad667dd944d0dc1b59a75e4699304457d6ec",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-mx-base.dtsi"
+    }
+  },
+  {
+    "name": "ipq5018-mx2000.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-mx2000.dts",
+    "sha": "3a8180f03d7f8cde49e1bf396133c1e88a88c2c9",
+    "size": 3436,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-mx2000.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-mx2000.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/3a8180f03d7f8cde49e1bf396133c1e88a88c2c9",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq5018-mx2000.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-mx2000.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/3a8180f03d7f8cde49e1bf396133c1e88a88c2c9",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-mx2000.dts"
+    }
+  },
+  {
+    "name": "ipq5018-mx5500.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-mx5500.dts",
+    "sha": "7c50185f4655c8eb3de07caa74f7984febbbfcb7",
+    "size": 3307,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-mx5500.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-mx5500.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/7c50185f4655c8eb3de07caa74f7984febbbfcb7",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq5018-mx5500.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-mx5500.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/7c50185f4655c8eb3de07caa74f7984febbbfcb7",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-mx5500.dts"
+    }
+  },
+  {
+    "name": "ipq5018-mx6200.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-mx6200.dts",
+    "sha": "5d28c96be9e3fa0a1a19dbb846f67d075973f305",
+    "size": 2705,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-mx6200.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-mx6200.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/5d28c96be9e3fa0a1a19dbb846f67d075973f305",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq5018-mx6200.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-mx6200.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/5d28c96be9e3fa0a1a19dbb846f67d075973f305",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-mx6200.dts"
+    }
+  },
+  {
+    "name": "ipq5018-pz-l8.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-pz-l8.dts",
+    "sha": "507910f297248b32aab79cc7b7350d7aaea320cd",
+    "size": 6088,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-pz-l8.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-pz-l8.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/507910f297248b32aab79cc7b7350d7aaea320cd",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq5018-pz-l8.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-pz-l8.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/507910f297248b32aab79cc7b7350d7aaea320cd",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-pz-l8.dts"
+    }
+  },
+  {
+    "name": "ipq5018-qcn6122.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq5018-qcn6122.dtsi",
+    "sha": "a59c6ceda36a04c50c67e32c0576b18774eedcd1",
+    "size": 3380,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-qcn6122.dtsi?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-qcn6122.dtsi",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/a59c6ceda36a04c50c67e32c0576b18774eedcd1",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq5018-qcn6122.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-qcn6122.dtsi?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/a59c6ceda36a04c50c67e32c0576b18774eedcd1",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-qcn6122.dtsi"
+    }
+  },
+  {
+    "name": "ipq5018-rax3000q.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-rax3000q.dts",
+    "sha": "23a1637ee0c62717fdc89d91bc182ec5e0f48947",
+    "size": 6222,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-rax3000q.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-rax3000q.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/23a1637ee0c62717fdc89d91bc182ec5e0f48947",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq5018-rax3000q.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-rax3000q.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/23a1637ee0c62717fdc89d91bc182ec5e0f48947",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-rax3000q.dts"
+    }
+  },
+  {
+    "name": "ipq5018-re700x.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-re700x.dts",
+    "sha": "79111058174c3a0650c2215bb877018c7d1f88b2",
+    "size": 6886,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-re700x.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-re700x.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/79111058174c3a0650c2215bb877018c7d1f88b2",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq5018-re700x.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-re700x.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/79111058174c3a0650c2215bb877018c7d1f88b2",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-re700x.dts"
+    }
+  },
+  {
+    "name": "ipq5018-redmi-ax5400.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-redmi-ax5400.dts",
+    "sha": "4d435d7005f483de706e64828906aea0f50325de",
+    "size": 8934,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-redmi-ax5400.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-redmi-ax5400.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/4d435d7005f483de706e64828906aea0f50325de",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq5018-redmi-ax5400.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-redmi-ax5400.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/4d435d7005f483de706e64828906aea0f50325de",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-redmi-ax5400.dts"
+    }
+  },
+  {
+    "name": "ipq5018-scr50axe.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-scr50axe.dts",
+    "sha": "b389578becb12c7a32d3d62af1a375c1c93247ad",
+    "size": 7145,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-scr50axe.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-scr50axe.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/b389578becb12c7a32d3d62af1a375c1c93247ad",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq5018-scr50axe.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-scr50axe.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/b389578becb12c7a32d3d62af1a375c1c93247ad",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-scr50axe.dts"
+    }
+  },
+  {
+    "name": "ipq5018-spnmx56.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-spnmx56.dts",
+    "sha": "263b4be6ac0275c4eaa99905c582757421bb93fd",
+    "size": 3688,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-spnmx56.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-spnmx56.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/263b4be6ac0275c4eaa99905c582757421bb93fd",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq5018-spnmx56.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-spnmx56.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/263b4be6ac0275c4eaa99905c582757421bb93fd",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-spnmx56.dts"
+    }
+  },
+  {
+    "name": "ipq5018-wn-dax3000gr.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-wn-dax3000gr.dts",
+    "sha": "14a882238c880d2ce05687e60281339a6af0f39b",
+    "size": 6808,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-wn-dax3000gr.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-wn-dax3000gr.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/14a882238c880d2ce05687e60281339a6af0f39b",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq5018-wn-dax3000gr.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-wn-dax3000gr.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/14a882238c880d2ce05687e60281339a6af0f39b",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-wn-dax3000gr.dts"
+    }
+  },
+  {
+    "name": "ipq5018-wrc-x3000.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq5018-wrc-x3000.dtsi",
+    "sha": "c487a68467f362b06a8507904eaca8775c0827a2",
+    "size": 6534,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-wrc-x3000.dtsi?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-wrc-x3000.dtsi",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/c487a68467f362b06a8507904eaca8775c0827a2",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq5018-wrc-x3000.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-wrc-x3000.dtsi?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/c487a68467f362b06a8507904eaca8775c0827a2",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-wrc-x3000.dtsi"
+    }
+  },
+  {
+    "name": "ipq5018-wrc-x3000gs2.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-wrc-x3000gs2.dts",
+    "sha": "c52ea8ea5f2f4469eaa5e2194cfe87d2b5b9c877",
+    "size": 603,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-wrc-x3000gs2.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-wrc-x3000gs2.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/c52ea8ea5f2f4469eaa5e2194cfe87d2b5b9c877",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq5018-wrc-x3000gs2.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-wrc-x3000gs2.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/c52ea8ea5f2f4469eaa5e2194cfe87d2b5b9c877",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-wrc-x3000gs2.dts"
+    }
+  },
+  {
+    "name": "ipq5018-wrc-x3000gst2.dts",
+    "path": "target/linux/qualcommax/dts/ipq5018-wrc-x3000gst2.dts",
+    "sha": "62e381dc625efb686318c6b7f5cd0cf1765f8860",
+    "size": 348,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-wrc-x3000gst2.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-wrc-x3000gst2.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/62e381dc625efb686318c6b7f5cd0cf1765f8860",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq5018-wrc-x3000gst2.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq5018-wrc-x3000gst2.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/62e381dc625efb686318c6b7f5cd0cf1765f8860",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq5018-wrc-x3000gst2.dts"
+    }
+  },
+  {
+    "name": "ipq6000-360v6.dts",
+    "path": "target/linux/qualcommax/dts/ipq6000-360v6.dts",
+    "sha": "a20834c2b69f1154159669e5a9524b88b48ff3f2",
+    "size": 3598,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6000-360v6.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6000-360v6.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/a20834c2b69f1154159669e5a9524b88b48ff3f2",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq6000-360v6.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6000-360v6.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/a20834c2b69f1154159669e5a9524b88b48ff3f2",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6000-360v6.dts"
+    }
+  },
+  {
+    "name": "ipq6000-ap120c-ax.dts",
+    "path": "target/linux/qualcommax/dts/ipq6000-ap120c-ax.dts",
+    "sha": "c7612112892930994e4a30a92c6a5d9fbb81325c",
+    "size": 7100,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6000-ap120c-ax.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6000-ap120c-ax.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/c7612112892930994e4a30a92c6a5d9fbb81325c",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq6000-ap120c-ax.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6000-ap120c-ax.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/c7612112892930994e4a30a92c6a5d9fbb81325c",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6000-ap120c-ax.dts"
+    }
+  },
+  {
+    "name": "ipq6000-gl-ax1800.dts",
+    "path": "target/linux/qualcommax/dts/ipq6000-gl-ax1800.dts",
+    "sha": "e6b796d91dfd3bf94b749b4604d027f47b5ba3bc",
+    "size": 1702,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6000-gl-ax1800.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6000-gl-ax1800.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/e6b796d91dfd3bf94b749b4604d027f47b5ba3bc",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq6000-gl-ax1800.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6000-gl-ax1800.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/e6b796d91dfd3bf94b749b4604d027f47b5ba3bc",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6000-gl-ax1800.dts"
+    }
+  },
+  {
+    "name": "ipq6000-gl-axt1800.dts",
+    "path": "target/linux/qualcommax/dts/ipq6000-gl-axt1800.dts",
+    "sha": "8f03d01a729e2c8a497246fda73cdb8995e98b25",
+    "size": 3366,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6000-gl-axt1800.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6000-gl-axt1800.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/8f03d01a729e2c8a497246fda73cdb8995e98b25",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq6000-gl-axt1800.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6000-gl-axt1800.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/8f03d01a729e2c8a497246fda73cdb8995e98b25",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6000-gl-axt1800.dts"
+    }
+  },
+  {
+    "name": "ipq6000-glinet.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq6000-glinet.dtsi",
+    "sha": "b9508b1286f84aa3f5db59654a234f0474e04448",
+    "size": 4797,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6000-glinet.dtsi?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6000-glinet.dtsi",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/b9508b1286f84aa3f5db59654a234f0474e04448",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq6000-glinet.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6000-glinet.dtsi?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/b9508b1286f84aa3f5db59654a234f0474e04448",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6000-glinet.dtsi"
+    }
+  },
+  {
+    "name": "ipq6000-link.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq6000-link.dtsi",
+    "sha": "13c5a939ec3df8bd44fbdfe211c703ce251616fa",
+    "size": 3744,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6000-link.dtsi?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6000-link.dtsi",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/13c5a939ec3df8bd44fbdfe211c703ce251616fa",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq6000-link.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6000-link.dtsi?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/13c5a939ec3df8bd44fbdfe211c703ce251616fa",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6000-link.dtsi"
+    }
+  },
+  {
+    "name": "ipq6000-mr7350.dts",
+    "path": "target/linux/qualcommax/dts/ipq6000-mr7350.dts",
+    "sha": "47a39c7db6dc45303fae08b953e11f4f231f2958",
+    "size": 7483,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6000-mr7350.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6000-mr7350.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/47a39c7db6dc45303fae08b953e11f4f231f2958",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq6000-mr7350.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6000-mr7350.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/47a39c7db6dc45303fae08b953e11f4f231f2958",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6000-mr7350.dts"
+    }
+  },
+  {
+    "name": "ipq6000-nn6000-v1.dts",
+    "path": "target/linux/qualcommax/dts/ipq6000-nn6000-v1.dts",
+    "sha": "7d62d3f99395b2223fa635cca5280f3c3b8aa8eb",
+    "size": 359,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6000-nn6000-v1.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6000-nn6000-v1.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/7d62d3f99395b2223fa635cca5280f3c3b8aa8eb",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq6000-nn6000-v1.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6000-nn6000-v1.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/7d62d3f99395b2223fa635cca5280f3c3b8aa8eb",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6000-nn6000-v1.dts"
+    }
+  },
+  {
+    "name": "ipq6000-nn6000-v2.dts",
+    "path": "target/linux/qualcommax/dts/ipq6000-nn6000-v2.dts",
+    "sha": "89e443b75906b579cd226e3165aa90af836bd11f",
+    "size": 507,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6000-nn6000-v2.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6000-nn6000-v2.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/89e443b75906b579cd226e3165aa90af836bd11f",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq6000-nn6000-v2.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6000-nn6000-v2.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/89e443b75906b579cd226e3165aa90af836bd11f",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6000-nn6000-v2.dts"
+    }
+  },
+  {
+    "name": "ipq6000-re-ss-01.dts",
+    "path": "target/linux/qualcommax/dts/ipq6000-re-ss-01.dts",
+    "sha": "113ec85de1693f0de09375fa37752a363c7acba9",
+    "size": 3761,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6000-re-ss-01.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6000-re-ss-01.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/113ec85de1693f0de09375fa37752a363c7acba9",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq6000-re-ss-01.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6000-re-ss-01.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/113ec85de1693f0de09375fa37752a363c7acba9",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6000-re-ss-01.dts"
+    }
+  },
+  {
+    "name": "ipq6010-mango-dvk.dts",
+    "path": "target/linux/qualcommax/dts/ipq6010-mango-dvk.dts",
+    "sha": "2bc51caa8c6071064734c14f6c04fd4bb236d8b3",
+    "size": 6046,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6010-mango-dvk.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6010-mango-dvk.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/2bc51caa8c6071064734c14f6c04fd4bb236d8b3",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq6010-mango-dvk.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6010-mango-dvk.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/2bc51caa8c6071064734c14f6c04fd4bb236d8b3",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6010-mango-dvk.dts"
+    }
+  },
+  {
+    "name": "ipq6010-mikrotik-chateau-5g-r17.dts",
+    "path": "target/linux/qualcommax/dts/ipq6010-mikrotik-chateau-5g-r17.dts",
+    "sha": "507bf3a295d66c95447b5175ceba7d523f38b428",
+    "size": 12390,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6010-mikrotik-chateau-5g-r17.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6010-mikrotik-chateau-5g-r17.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/507bf3a295d66c95447b5175ceba7d523f38b428",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq6010-mikrotik-chateau-5g-r17.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6010-mikrotik-chateau-5g-r17.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/507bf3a295d66c95447b5175ceba7d523f38b428",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6010-mikrotik-chateau-5g-r17.dts"
+    }
+  },
+  {
+    "name": "ipq6010-re-cs-02.dts",
+    "path": "target/linux/qualcommax/dts/ipq6010-re-cs-02.dts",
+    "sha": "8594ea7bf0013a7b5384b2c3413db2648cac36c8",
+    "size": 2739,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6010-re-cs-02.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6010-re-cs-02.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/8594ea7bf0013a7b5384b2c3413db2648cac36c8",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq6010-re-cs-02.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6010-re-cs-02.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/8594ea7bf0013a7b5384b2c3413db2648cac36c8",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6010-re-cs-02.dts"
+    }
+  },
+  {
+    "name": "ipq6010-re-cs-07.dts",
+    "path": "target/linux/qualcommax/dts/ipq6010-re-cs-07.dts",
+    "sha": "1ee45622167f3c310a2b63be1a5e1eab2c030556",
+    "size": 1530,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6010-re-cs-07.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6010-re-cs-07.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/1ee45622167f3c310a2b63be1a5e1eab2c030556",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq6010-re-cs-07.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6010-re-cs-07.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/1ee45622167f3c310a2b63be1a5e1eab2c030556",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6010-re-cs-07.dts"
+    }
+  },
+  {
+    "name": "ipq6010-re-cs.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq6010-re-cs.dtsi",
+    "sha": "c61c3616ad535ba411c4d07a73e2b90317d7dd26",
+    "size": 2465,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6010-re-cs.dtsi?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6010-re-cs.dtsi",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/c61c3616ad535ba411c4d07a73e2b90317d7dd26",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq6010-re-cs.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6010-re-cs.dtsi?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/c61c3616ad535ba411c4d07a73e2b90317d7dd26",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6010-re-cs.dtsi"
+    }
+  },
+  {
+    "name": "ipq6010-wax214.dts",
+    "path": "target/linux/qualcommax/dts/ipq6010-wax214.dts",
+    "sha": "5df12f4ed66bcc92c59792c3fc883886ffcb1813",
+    "size": 2988,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6010-wax214.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6010-wax214.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/5df12f4ed66bcc92c59792c3fc883886ffcb1813",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq6010-wax214.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6010-wax214.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/5df12f4ed66bcc92c59792c3fc883886ffcb1813",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6010-wax214.dts"
+    }
+  },
+  {
+    "name": "ipq6010-wax610-base.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq6010-wax610-base.dtsi",
+    "sha": "acf50fabd3a8f382450213c78878663e608b7dec",
+    "size": 3706,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6010-wax610-base.dtsi?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6010-wax610-base.dtsi",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/acf50fabd3a8f382450213c78878663e608b7dec",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq6010-wax610-base.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6010-wax610-base.dtsi?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/acf50fabd3a8f382450213c78878663e608b7dec",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6010-wax610-base.dtsi"
+    }
+  },
+  {
+    "name": "ipq6010-wax610.dts",
+    "path": "target/linux/qualcommax/dts/ipq6010-wax610.dts",
+    "sha": "f8530b38e719b0822aba4cf8765f881c0e3695c2",
+    "size": 235,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6010-wax610.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6010-wax610.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/f8530b38e719b0822aba4cf8765f881c0e3695c2",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq6010-wax610.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6010-wax610.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/f8530b38e719b0822aba4cf8765f881c0e3695c2",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6010-wax610.dts"
+    }
+  },
+  {
+    "name": "ipq6010-wax610y.dts",
+    "path": "target/linux/qualcommax/dts/ipq6010-wax610y.dts",
+    "sha": "79d1ae403d5657b269bba7c3a5aa64aeccb63d34",
+    "size": 238,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6010-wax610y.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6010-wax610y.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/79d1ae403d5657b269bba7c3a5aa64aeccb63d34",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq6010-wax610y.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6010-wax610y.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/79d1ae403d5657b269bba7c3a5aa64aeccb63d34",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6010-wax610y.dts"
+    }
+  },
+  {
+    "name": "ipq6010-xe3-4.dts",
+    "path": "target/linux/qualcommax/dts/ipq6010-xe3-4.dts",
+    "sha": "c038c6598f574cafc76b9a0475adad803725c633",
+    "size": 8016,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6010-xe3-4.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6010-xe3-4.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/c038c6598f574cafc76b9a0475adad803725c633",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq6010-xe3-4.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6010-xe3-4.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/c038c6598f574cafc76b9a0475adad803725c633",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6010-xe3-4.dts"
+    }
+  },
+  {
+    "name": "ipq6018-eap610-outdoor.dts",
+    "path": "target/linux/qualcommax/dts/ipq6018-eap610-outdoor.dts",
+    "sha": "33444f31e2eb4d89f78158725cc737c1edf145f5",
+    "size": 324,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6018-eap610-outdoor.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6018-eap610-outdoor.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/33444f31e2eb4d89f78158725cc737c1edf145f5",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq6018-eap610-outdoor.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6018-eap610-outdoor.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/33444f31e2eb4d89f78158725cc737c1edf145f5",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6018-eap610-outdoor.dts"
+    }
+  },
+  {
+    "name": "ipq6018-eap620-hd-v2.dts",
+    "path": "target/linux/qualcommax/dts/ipq6018-eap620-hd-v2.dts",
+    "sha": "0bbe9646b7ff7d778330c2ea8848e824a0405402",
+    "size": 898,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6018-eap620-hd-v2.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6018-eap620-hd-v2.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/0bbe9646b7ff7d778330c2ea8848e824a0405402",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq6018-eap620-hd-v2.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6018-eap620-hd-v2.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/0bbe9646b7ff7d778330c2ea8848e824a0405402",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6018-eap620-hd-v2.dts"
+    }
+  },
+  {
+    "name": "ipq6018-eap620-hd-v3.dts",
+    "path": "target/linux/qualcommax/dts/ipq6018-eap620-hd-v3.dts",
+    "sha": "b2352b203558d11001c3c1b973b65b688dc24791",
+    "size": 898,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6018-eap620-hd-v3.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6018-eap620-hd-v3.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/b2352b203558d11001c3c1b973b65b688dc24791",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq6018-eap620-hd-v3.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6018-eap620-hd-v3.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/b2352b203558d11001c3c1b973b65b688dc24791",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6018-eap620-hd-v3.dts"
+    }
+  },
+  {
+    "name": "ipq6018-eap623-outdoor-hd-v1.dts",
+    "path": "target/linux/qualcommax/dts/ipq6018-eap623-outdoor-hd-v1.dts",
+    "sha": "a474c2043fecc3ce71d26fd5c1a3ff2b9a746640",
+    "size": 475,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6018-eap623-outdoor-hd-v1.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6018-eap623-outdoor-hd-v1.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/a474c2043fecc3ce71d26fd5c1a3ff2b9a746640",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq6018-eap623-outdoor-hd-v1.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6018-eap623-outdoor-hd-v1.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/a474c2043fecc3ce71d26fd5c1a3ff2b9a746640",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6018-eap623-outdoor-hd-v1.dts"
+    }
+  },
+  {
+    "name": "ipq6018-eap625-outdoor-hd-v1.dts",
+    "path": "target/linux/qualcommax/dts/ipq6018-eap625-outdoor-hd-v1.dts",
+    "sha": "bb39aaef0cc10d2b3bfd5f02aaad6f293704b2d5",
+    "size": 299,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6018-eap625-outdoor-hd-v1.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6018-eap625-outdoor-hd-v1.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/bb39aaef0cc10d2b3bfd5f02aaad6f293704b2d5",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq6018-eap625-outdoor-hd-v1.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6018-eap625-outdoor-hd-v1.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/bb39aaef0cc10d2b3bfd5f02aaad6f293704b2d5",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6018-eap625-outdoor-hd-v1.dts"
+    }
+  },
+  {
+    "name": "ipq6018-fap650.dts",
+    "path": "target/linux/qualcommax/dts/ipq6018-fap650.dts",
+    "sha": "5fc8e379f6e0243b375fcf64d3add510a5fb2e21",
+    "size": 5986,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6018-fap650.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6018-fap650.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/5fc8e379f6e0243b375fcf64d3add510a5fb2e21",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq6018-fap650.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6018-fap650.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/5fc8e379f6e0243b375fcf64d3add510a5fb2e21",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6018-fap650.dts"
+    }
+  },
+  {
+    "name": "ipq6018-mr7500.dts",
+    "path": "target/linux/qualcommax/dts/ipq6018-mr7500.dts",
+    "sha": "c9f706a719d7ec0b6a87c8dda0ae769ef09d5b93",
+    "size": 9906,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6018-mr7500.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6018-mr7500.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/c9f706a719d7ec0b6a87c8dda0ae769ef09d5b93",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq6018-mr7500.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6018-mr7500.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/c9f706a719d7ec0b6a87c8dda0ae769ef09d5b93",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6018-mr7500.dts"
+    }
+  },
+  {
+    "name": "ipq6018-rbr350.dts",
+    "path": "target/linux/qualcommax/dts/ipq6018-rbr350.dts",
+    "sha": "ee671d9c582ca6120da67bd89444bc6ccf4610e8",
+    "size": 165,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6018-rbr350.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6018-rbr350.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/ee671d9c582ca6120da67bd89444bc6ccf4610e8",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq6018-rbr350.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6018-rbr350.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/ee671d9c582ca6120da67bd89444bc6ccf4610e8",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6018-rbr350.dts"
+    }
+  },
+  {
+    "name": "ipq6018-rbs350.dts",
+    "path": "target/linux/qualcommax/dts/ipq6018-rbs350.dts",
+    "sha": "4c199450faf3ae7b60f8cac4a3236f90911c2620",
+    "size": 239,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6018-rbs350.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6018-rbs350.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/4c199450faf3ae7b60f8cac4a3236f90911c2620",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq6018-rbs350.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6018-rbs350.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/4c199450faf3ae7b60f8cac4a3236f90911c2620",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6018-rbs350.dts"
+    }
+  },
+  {
+    "name": "ipq6018-rbx350.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq6018-rbx350.dtsi",
+    "sha": "519a52f4aa9736ff5ad8802ede4a27e3b2052f0f",
+    "size": 4765,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6018-rbx350.dtsi?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6018-rbx350.dtsi",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/519a52f4aa9736ff5ad8802ede4a27e3b2052f0f",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq6018-rbx350.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6018-rbx350.dtsi?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/519a52f4aa9736ff5ad8802ede4a27e3b2052f0f",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6018-rbx350.dtsi"
+    }
+  },
+  {
+    "name": "ipq6018-tplink-eap6xx-outdoor.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq6018-tplink-eap6xx-outdoor.dtsi",
+    "sha": "6373ae007658faca8756fa8bc763c0ba6c67bb6a",
+    "size": 2580,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6018-tplink-eap6xx-outdoor.dtsi?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6018-tplink-eap6xx-outdoor.dtsi",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/6373ae007658faca8756fa8bc763c0ba6c67bb6a",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq6018-tplink-eap6xx-outdoor.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq6018-tplink-eap6xx-outdoor.dtsi?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/6373ae007658faca8756fa8bc763c0ba6c67bb6a",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq6018-tplink-eap6xx-outdoor.dtsi"
+    }
+  },
+  {
+    "name": "ipq8070-cax1800.dts",
+    "path": "target/linux/qualcommax/dts/ipq8070-cax1800.dts",
+    "sha": "4ebf78ec18bb4f95f2a38fb5138d82f769803123",
+    "size": 5014,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8070-cax1800.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8070-cax1800.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/4ebf78ec18bb4f95f2a38fb5138d82f769803123",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8070-cax1800.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8070-cax1800.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/4ebf78ec18bb4f95f2a38fb5138d82f769803123",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8070-cax1800.dts"
+    }
+  },
+  {
+    "name": "ipq8070-nwa110ax.dts",
+    "path": "target/linux/qualcommax/dts/ipq8070-nwa110ax.dts",
+    "sha": "2dfc2a263b4e6a7c8c083934693938f107455204",
+    "size": 474,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8070-nwa110ax.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8070-nwa110ax.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/2dfc2a263b4e6a7c8c083934693938f107455204",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8070-nwa110ax.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8070-nwa110ax.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/2dfc2a263b4e6a7c8c083934693938f107455204",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8070-nwa110ax.dts"
+    }
+  },
+  {
+    "name": "ipq8070-rm2-6.dts",
+    "path": "target/linux/qualcommax/dts/ipq8070-rm2-6.dts",
+    "sha": "1ddc2fc377069ad78b74610e61aa876481b56d0d",
+    "size": 5108,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8070-rm2-6.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8070-rm2-6.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/1ddc2fc377069ad78b74610e61aa876481b56d0d",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8070-rm2-6.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8070-rm2-6.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/1ddc2fc377069ad78b74610e61aa876481b56d0d",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8070-rm2-6.dts"
+    }
+  },
+  {
+    "name": "ipq8071-ap8220.dts",
+    "path": "target/linux/qualcommax/dts/ipq8071-ap8220.dts",
+    "sha": "942a4baf49a8a198587c3488904a0395aa2e8c03",
+    "size": 5378,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8071-ap8220.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8071-ap8220.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/942a4baf49a8a198587c3488904a0395aa2e8c03",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8071-ap8220.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8071-ap8220.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/942a4baf49a8a198587c3488904a0395aa2e8c03",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8071-ap8220.dts"
+    }
+  },
+  {
+    "name": "ipq8071-ax3600.dts",
+    "path": "target/linux/qualcommax/dts/ipq8071-ax3600.dts",
+    "sha": "4df2adbb20f9f4a8de853a911f9358d4482b5de7",
+    "size": 2043,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8071-ax3600.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8071-ax3600.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/4df2adbb20f9f4a8de853a911f9358d4482b5de7",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8071-ax3600.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8071-ax3600.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/4df2adbb20f9f4a8de853a911f9358d4482b5de7",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8071-ax3600.dts"
+    }
+  },
+  {
+    "name": "ipq8071-ax3600.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq8071-ax3600.dtsi",
+    "sha": "3b669ca5ed27384048859ec87b6d70196ac37b81",
+    "size": 5573,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8071-ax3600.dtsi?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8071-ax3600.dtsi",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/3b669ca5ed27384048859ec87b6d70196ac37b81",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8071-ax3600.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8071-ax3600.dtsi?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/3b669ca5ed27384048859ec87b6d70196ac37b81",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8071-ax3600.dtsi"
+    }
+  },
+  {
+    "name": "ipq8071-ax6.dts",
+    "path": "target/linux/qualcommax/dts/ipq8071-ax6.dts",
+    "sha": "6611a8fe27a2b3082cdc9771fa47977a408ec663",
+    "size": 871,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8071-ax6.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8071-ax6.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/6611a8fe27a2b3082cdc9771fa47977a408ec663",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8071-ax6.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8071-ax6.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/6611a8fe27a2b3082cdc9771fa47977a408ec663",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8071-ax6.dts"
+    }
+  },
+  {
+    "name": "ipq8071-eap102.dts",
+    "path": "target/linux/qualcommax/dts/ipq8071-eap102.dts",
+    "sha": "b2b089fb21fb03ba7d3d598008432575102a04fc",
+    "size": 6331,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8071-eap102.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8071-eap102.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/b2b089fb21fb03ba7d3d598008432575102a04fc",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8071-eap102.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8071-eap102.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/b2b089fb21fb03ba7d3d598008432575102a04fc",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8071-eap102.dts"
+    }
+  },
+  {
+    "name": "ipq8071-mf269.dts",
+    "path": "target/linux/qualcommax/dts/ipq8071-mf269.dts",
+    "sha": "f23846bfc160cef219c874f2ccedbb632c7d7f2c",
+    "size": 7731,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8071-mf269.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8071-mf269.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/f23846bfc160cef219c874f2ccedbb632c7d7f2c",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8071-mf269.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8071-mf269.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/f23846bfc160cef219c874f2ccedbb632c7d7f2c",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8071-mf269.dts"
+    }
+  },
+  {
+    "name": "ipq8071-nwa210ax.dts",
+    "path": "target/linux/qualcommax/dts/ipq8071-nwa210ax.dts",
+    "sha": "388f304ba2a95744b96d11f18dfb1d206ee7605b",
+    "size": 1453,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8071-nwa210ax.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8071-nwa210ax.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/388f304ba2a95744b96d11f18dfb1d206ee7605b",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8071-nwa210ax.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8071-nwa210ax.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/388f304ba2a95744b96d11f18dfb1d206ee7605b",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8071-nwa210ax.dts"
+    }
+  },
+  {
+    "name": "ipq8072-301w.dts",
+    "path": "target/linux/qualcommax/dts/ipq8072-301w.dts",
+    "sha": "69e47d098a279ad615ee0acd94603f5ccd34d274",
+    "size": 10774,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8072-301w.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8072-301w.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/69e47d098a279ad615ee0acd94603f5ccd34d274",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8072-301w.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8072-301w.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/69e47d098a279ad615ee0acd94603f5ccd34d274",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8072-301w.dts"
+    }
+  },
+  {
+    "name": "ipq8072-aw1000.dts",
+    "path": "target/linux/qualcommax/dts/ipq8072-aw1000.dts",
+    "sha": "a579656699bb9b0ef57c73af858043b060c9788a",
+    "size": 6225,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8072-aw1000.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8072-aw1000.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/a579656699bb9b0ef57c73af858043b060c9788a",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8072-aw1000.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8072-aw1000.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/a579656699bb9b0ef57c73af858043b060c9788a",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8072-aw1000.dts"
+    }
+  },
+  {
+    "name": "ipq8072-ax880.dts",
+    "path": "target/linux/qualcommax/dts/ipq8072-ax880.dts",
+    "sha": "89cee9d110279287408bc4ba83e5a439f6aa2692",
+    "size": 6326,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8072-ax880.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8072-ax880.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/89cee9d110279287408bc4ba83e5a439f6aa2692",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8072-ax880.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8072-ax880.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/89cee9d110279287408bc4ba83e5a439f6aa2692",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8072-ax880.dts"
+    }
+  },
+  {
+    "name": "ipq8072-ax9000.dts",
+    "path": "target/linux/qualcommax/dts/ipq8072-ax9000.dts",
+    "sha": "3f4f4def451614a55d252a63421a47e97e8c8584",
+    "size": 11495,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8072-ax9000.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8072-ax9000.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/3f4f4def451614a55d252a63421a47e97e8c8584",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8072-ax9000.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8072-ax9000.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/3f4f4def451614a55d252a63421a47e97e8c8584",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8072-ax9000.dts"
+    }
+  },
+  {
+    "name": "ipq8072-dl-wrx36.dts",
+    "path": "target/linux/qualcommax/dts/ipq8072-dl-wrx36.dts",
+    "sha": "d5b3b41b3507c0187afb1c02bc8023207b7e8632",
+    "size": 5620,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8072-dl-wrx36.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8072-dl-wrx36.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/d5b3b41b3507c0187afb1c02bc8023207b7e8632",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8072-dl-wrx36.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8072-dl-wrx36.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/d5b3b41b3507c0187afb1c02bc8023207b7e8632",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8072-dl-wrx36.dts"
+    }
+  },
+  {
+    "name": "ipq8072-eap620hd-v1.dts",
+    "path": "target/linux/qualcommax/dts/ipq8072-eap620hd-v1.dts",
+    "sha": "6cd494aeaff8edaff14f5d14e16a821179935e8e",
+    "size": 2239,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8072-eap620hd-v1.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8072-eap620hd-v1.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/6cd494aeaff8edaff14f5d14e16a821179935e8e",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8072-eap620hd-v1.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8072-eap620hd-v1.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/6cd494aeaff8edaff14f5d14e16a821179935e8e",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8072-eap620hd-v1.dts"
+    }
+  },
+  {
+    "name": "ipq8072-eap660hd-v1.dts",
+    "path": "target/linux/qualcommax/dts/ipq8072-eap660hd-v1.dts",
+    "sha": "aea73fe82d45ff298a1462820c63c0923027bfcc",
+    "size": 2223,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8072-eap660hd-v1.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8072-eap660hd-v1.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/aea73fe82d45ff298a1462820c63c0923027bfcc",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8072-eap660hd-v1.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8072-eap660hd-v1.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/aea73fe82d45ff298a1462820c63c0923027bfcc",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8072-eap660hd-v1.dts"
+    }
+  },
+  {
+    "name": "ipq8072-haze.dts",
+    "path": "target/linux/qualcommax/dts/ipq8072-haze.dts",
+    "sha": "b3c4310e8eda2b08c679a6683405cffc8f2e56f3",
+    "size": 5461,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8072-haze.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8072-haze.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/b3c4310e8eda2b08c679a6683405cffc8f2e56f3",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8072-haze.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8072-haze.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/b3c4310e8eda2b08c679a6683405cffc8f2e56f3",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8072-haze.dts"
+    }
+  },
+  {
+    "name": "ipq8072-linkhub-hh500v.dts",
+    "path": "target/linux/qualcommax/dts/ipq8072-linkhub-hh500v.dts",
+    "sha": "05f0b0955699c12f09287fe9c39b7f5404d3f09a",
+    "size": 7100,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8072-linkhub-hh500v.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8072-linkhub-hh500v.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/05f0b0955699c12f09287fe9c39b7f5404d3f09a",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8072-linkhub-hh500v.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8072-linkhub-hh500v.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/05f0b0955699c12f09287fe9c39b7f5404d3f09a",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8072-linkhub-hh500v.dts"
+    }
+  },
+  {
+    "name": "ipq8072-mx5300.dts",
+    "path": "target/linux/qualcommax/dts/ipq8072-mx5300.dts",
+    "sha": "6faa728d25687e8683ddbdadec1d74ac3c241a00",
+    "size": 9602,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8072-mx5300.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8072-mx5300.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/6faa728d25687e8683ddbdadec1d74ac3c241a00",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8072-mx5300.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8072-mx5300.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/6faa728d25687e8683ddbdadec1d74ac3c241a00",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8072-mx5300.dts"
+    }
+  },
+  {
+    "name": "ipq8072-mx8500.dts",
+    "path": "target/linux/qualcommax/dts/ipq8072-mx8500.dts",
+    "sha": "ebb652ad4142981108bca6c6aa8271c076a27532",
+    "size": 9188,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8072-mx8500.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8072-mx8500.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/ebb652ad4142981108bca6c6aa8271c076a27532",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8072-mx8500.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8072-mx8500.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/ebb652ad4142981108bca6c6aa8271c076a27532",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8072-mx8500.dts"
+    }
+  },
+  {
+    "name": "ipq8072-sax1v1k.dts",
+    "path": "target/linux/qualcommax/dts/ipq8072-sax1v1k.dts",
+    "sha": "f7deb132ff23350e4b14363b7c9c0f72c1fc4a62",
+    "size": 4028,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8072-sax1v1k.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8072-sax1v1k.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/f7deb132ff23350e4b14363b7c9c0f72c1fc4a62",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8072-sax1v1k.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8072-sax1v1k.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/f7deb132ff23350e4b14363b7c9c0f72c1fc4a62",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8072-sax1v1k.dts"
+    }
+  },
+  {
+    "name": "ipq8072-wax218.dts",
+    "path": "target/linux/qualcommax/dts/ipq8072-wax218.dts",
+    "sha": "570ff0aca55d6e981ed4d891a344a8b6494ca9a1",
+    "size": 3269,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8072-wax218.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8072-wax218.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/570ff0aca55d6e981ed4d891a344a8b6494ca9a1",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8072-wax218.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8072-wax218.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/570ff0aca55d6e981ed4d891a344a8b6494ca9a1",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8072-wax218.dts"
+    }
+  },
+  {
+    "name": "ipq8072-wax620.dts",
+    "path": "target/linux/qualcommax/dts/ipq8072-wax620.dts",
+    "sha": "286bb7c60b8a337b6199895947488ba805d44fbf",
+    "size": 3416,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8072-wax620.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8072-wax620.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/286bb7c60b8a337b6199895947488ba805d44fbf",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8072-wax620.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8072-wax620.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/286bb7c60b8a337b6199895947488ba805d44fbf",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8072-wax620.dts"
+    }
+  },
+  {
+    "name": "ipq8072-wpq873.dts",
+    "path": "target/linux/qualcommax/dts/ipq8072-wpq873.dts",
+    "sha": "ab5a2aff1083bd18bc61bb999d7807db6ef6c87c",
+    "size": 7342,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8072-wpq873.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8072-wpq873.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/ab5a2aff1083bd18bc61bb999d7807db6ef6c87c",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8072-wpq873.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8072-wpq873.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/ab5a2aff1083bd18bc61bb999d7807db6ef6c87c",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8072-wpq873.dts"
+    }
+  },
+  {
+    "name": "ipq8072-zbt-z800ax.dts",
+    "path": "target/linux/qualcommax/dts/ipq8072-zbt-z800ax.dts",
+    "sha": "5fe74a3c0843e6ab59a11f4b8157537c763711bb",
+    "size": 7241,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8072-zbt-z800ax.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8072-zbt-z800ax.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/5fe74a3c0843e6ab59a11f4b8157537c763711bb",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8072-zbt-z800ax.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8072-zbt-z800ax.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/5fe74a3c0843e6ab59a11f4b8157537c763711bb",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8072-zbt-z800ax.dts"
+    }
+  },
+  {
+    "name": "ipq8074-deco-x80-5g.dts",
+    "path": "target/linux/qualcommax/dts/ipq8074-deco-x80-5g.dts",
+    "sha": "23d753899f6060910be57fb89de1a4091b27c5a2",
+    "size": 9587,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8074-deco-x80-5g.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8074-deco-x80-5g.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/23d753899f6060910be57fb89de1a4091b27c5a2",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8074-deco-x80-5g.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8074-deco-x80-5g.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/23d753899f6060910be57fb89de1a4091b27c5a2",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8074-deco-x80-5g.dts"
+    }
+  },
+  {
+    "name": "ipq8074-nbg7815.dts",
+    "path": "target/linux/qualcommax/dts/ipq8074-nbg7815.dts",
+    "sha": "8967f7a1a0ce62c21c8bc671ff0db72f044d53e3",
+    "size": 15847,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8074-nbg7815.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8074-nbg7815.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/8967f7a1a0ce62c21c8bc671ff0db72f044d53e3",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8074-nbg7815.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8074-nbg7815.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/8967f7a1a0ce62c21c8bc671ff0db72f044d53e3",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8074-nbg7815.dts"
+    }
+  },
+  {
+    "name": "ipq8074-rax120v2.dts",
+    "path": "target/linux/qualcommax/dts/ipq8074-rax120v2.dts",
+    "sha": "6e596934914c0e3ff3fc9f6316a81c99d6a22d58",
+    "size": 9040,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8074-rax120v2.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8074-rax120v2.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/6e596934914c0e3ff3fc9f6316a81c99d6a22d58",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8074-rax120v2.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8074-rax120v2.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/6e596934914c0e3ff3fc9f6316a81c99d6a22d58",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8074-rax120v2.dts"
+    }
+  },
+  {
+    "name": "ipq8074-rbr750.dts",
+    "path": "target/linux/qualcommax/dts/ipq8074-rbr750.dts",
+    "sha": "2bfa8975bff98f1da97639fa4f6eda452825d77b",
+    "size": 236,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8074-rbr750.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8074-rbr750.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/2bfa8975bff98f1da97639fa4f6eda452825d77b",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8074-rbr750.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8074-rbr750.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/2bfa8975bff98f1da97639fa4f6eda452825d77b",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8074-rbr750.dts"
+    }
+  },
+  {
+    "name": "ipq8074-rbr850.dts",
+    "path": "target/linux/qualcommax/dts/ipq8074-rbr850.dts",
+    "sha": "5975aa7bc81bffaf9d45ec3b1cb680d4d5c6991f",
+    "size": 595,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8074-rbr850.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8074-rbr850.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/5975aa7bc81bffaf9d45ec3b1cb680d4d5c6991f",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8074-rbr850.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8074-rbr850.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/5975aa7bc81bffaf9d45ec3b1cb680d4d5c6991f",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8074-rbr850.dts"
+    }
+  },
+  {
+    "name": "ipq8074-rbs750.dts",
+    "path": "target/linux/qualcommax/dts/ipq8074-rbs750.dts",
+    "sha": "54588badf1de7d2afd15413695dc78245145bb94",
+    "size": 310,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8074-rbs750.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8074-rbs750.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/54588badf1de7d2afd15413695dc78245145bb94",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8074-rbs750.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8074-rbs750.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/54588badf1de7d2afd15413695dc78245145bb94",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8074-rbs750.dts"
+    }
+  },
+  {
+    "name": "ipq8074-rbs850.dts",
+    "path": "target/linux/qualcommax/dts/ipq8074-rbs850.dts",
+    "sha": "df77d781c80e1bd92f90bf32fabeba2d77f69349",
+    "size": 236,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8074-rbs850.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8074-rbs850.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/df77d781c80e1bd92f90bf32fabeba2d77f69349",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8074-rbs850.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8074-rbs850.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/df77d781c80e1bd92f90bf32fabeba2d77f69349",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8074-rbs850.dts"
+    }
+  },
+  {
+    "name": "ipq8074-rbx750.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq8074-rbx750.dtsi",
+    "sha": "1092f32419239c429ef58b913c745b77b06ba7af",
+    "size": 1449,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8074-rbx750.dtsi?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8074-rbx750.dtsi",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/1092f32419239c429ef58b913c745b77b06ba7af",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8074-rbx750.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8074-rbx750.dtsi?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/1092f32419239c429ef58b913c745b77b06ba7af",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8074-rbx750.dtsi"
+    }
+  },
+  {
+    "name": "ipq8074-rbx750_850.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq8074-rbx750_850.dtsi",
+    "sha": "8d68d473d6a885979319e04ffbaf3f0cfab9fcb3",
+    "size": 3674,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8074-rbx750_850.dtsi?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8074-rbx750_850.dtsi",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/8d68d473d6a885979319e04ffbaf3f0cfab9fcb3",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8074-rbx750_850.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8074-rbx750_850.dtsi?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/8d68d473d6a885979319e04ffbaf3f0cfab9fcb3",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8074-rbx750_850.dtsi"
+    }
+  },
+  {
+    "name": "ipq8074-rbx850.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq8074-rbx850.dtsi",
+    "sha": "e08d2b76e31171f8e309c32c9e3958c30842dc20",
+    "size": 1459,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8074-rbx850.dtsi?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8074-rbx850.dtsi",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/e08d2b76e31171f8e309c32c9e3958c30842dc20",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8074-rbx850.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8074-rbx850.dtsi?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/e08d2b76e31171f8e309c32c9e3958c30842dc20",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8074-rbx850.dtsi"
+    }
+  },
+  {
+    "name": "ipq8074-rt-ax89x.dts",
+    "path": "target/linux/qualcommax/dts/ipq8074-rt-ax89x.dts",
+    "sha": "8081b7766d24f791d9e4cf882d49b1204753ecc7",
+    "size": 14422,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8074-rt-ax89x.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8074-rt-ax89x.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/8081b7766d24f791d9e4cf882d49b1204753ecc7",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8074-rt-ax89x.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8074-rt-ax89x.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/8081b7766d24f791d9e4cf882d49b1204753ecc7",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8074-rt-ax89x.dts"
+    }
+  },
+  {
+    "name": "ipq8074-sxk80.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq8074-sxk80.dtsi",
+    "sha": "593921fbd0ddae9a5120f3175234210f3d4e6df6",
+    "size": 9527,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8074-sxk80.dtsi?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8074-sxk80.dtsi",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/593921fbd0ddae9a5120f3175234210f3d4e6df6",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8074-sxk80.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8074-sxk80.dtsi?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/593921fbd0ddae9a5120f3175234210f3d4e6df6",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8074-sxk80.dtsi"
+    }
+  },
+  {
+    "name": "ipq8074-sxr80.dts",
+    "path": "target/linux/qualcommax/dts/ipq8074-sxr80.dts",
+    "sha": "d90e75da30b05e0a029e32e46f9a9bab77ebaf5f",
+    "size": 224,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8074-sxr80.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8074-sxr80.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/d90e75da30b05e0a029e32e46f9a9bab77ebaf5f",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8074-sxr80.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8074-sxr80.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/d90e75da30b05e0a029e32e46f9a9bab77ebaf5f",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8074-sxr80.dts"
+    }
+  },
+  {
+    "name": "ipq8074-sxs80.dts",
+    "path": "target/linux/qualcommax/dts/ipq8074-sxs80.dts",
+    "sha": "0d7240cf07ae3ac8fafb649f07bfb701240a9f81",
+    "size": 224,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8074-sxs80.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8074-sxs80.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/0d7240cf07ae3ac8fafb649f07bfb701240a9f81",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8074-sxs80.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8074-sxs80.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/0d7240cf07ae3ac8fafb649f07bfb701240a9f81",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8074-sxs80.dts"
+    }
+  },
+  {
+    "name": "ipq8074-wax630.dts",
+    "path": "target/linux/qualcommax/dts/ipq8074-wax630.dts",
+    "sha": "0764800bbc926413f10e83460ddfecbbd3f9a1e7",
+    "size": 4546,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8074-wax630.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8074-wax630.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/0764800bbc926413f10e83460ddfecbbd3f9a1e7",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8074-wax630.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8074-wax630.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/0764800bbc926413f10e83460ddfecbbd3f9a1e7",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8074-wax630.dts"
+    }
+  },
+  {
+    "name": "ipq8074-wxr-5950ax12.dts",
+    "path": "target/linux/qualcommax/dts/ipq8074-wxr-5950ax12.dts",
+    "sha": "1959128020975cfddcbf67e7342128dc7ec69733",
+    "size": 6547,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8074-wxr-5950ax12.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8074-wxr-5950ax12.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/1959128020975cfddcbf67e7342128dc7ec69733",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8074-wxr-5950ax12.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8074-wxr-5950ax12.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/1959128020975cfddcbf67e7342128dc7ec69733",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8074-wxr-5950ax12.dts"
+    }
+  },
+  {
+    "name": "ipq807x-nwax10ax.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq807x-nwax10ax.dtsi",
+    "sha": "8248b5ab7daeab816be9cc7a35c9c5eeb6d24ffa",
+    "size": 6348,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq807x-nwax10ax.dtsi?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq807x-nwax10ax.dtsi",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/8248b5ab7daeab816be9cc7a35c9c5eeb6d24ffa",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq807x-nwax10ax.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq807x-nwax10ax.dtsi?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/8248b5ab7daeab816be9cc7a35c9c5eeb6d24ffa",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq807x-nwax10ax.dtsi"
+    }
+  },
+  {
+    "name": "ipq8174-homewrk.dts",
+    "path": "target/linux/qualcommax/dts/ipq8174-homewrk.dts",
+    "sha": "20dfdd96cbe9b6f2494eeba0ee4084e7d6967012",
+    "size": 1786,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8174-homewrk.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8174-homewrk.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/20dfdd96cbe9b6f2494eeba0ee4084e7d6967012",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8174-homewrk.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8174-homewrk.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/20dfdd96cbe9b6f2494eeba0ee4084e7d6967012",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8174-homewrk.dts"
+    }
+  },
+  {
+    "name": "ipq8174-mx4200.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq8174-mx4200.dtsi",
+    "sha": "20f83c72f8cf23c4bfe19c33e122beba8ba39f2d",
+    "size": 4667,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8174-mx4200.dtsi?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8174-mx4200.dtsi",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/20f83c72f8cf23c4bfe19c33e122beba8ba39f2d",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8174-mx4200.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8174-mx4200.dtsi?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/20f83c72f8cf23c4bfe19c33e122beba8ba39f2d",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8174-mx4200.dtsi"
+    }
+  },
+  {
+    "name": "ipq8174-mx4200v1.dts",
+    "path": "target/linux/qualcommax/dts/ipq8174-mx4200v1.dts",
+    "sha": "f96fd0efa85aad780d2af53ce01c41c5f56be72e",
+    "size": 919,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8174-mx4200v1.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8174-mx4200v1.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/f96fd0efa85aad780d2af53ce01c41c5f56be72e",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8174-mx4200v1.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8174-mx4200v1.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/f96fd0efa85aad780d2af53ce01c41c5f56be72e",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8174-mx4200v1.dts"
+    }
+  },
+  {
+    "name": "ipq8174-mx4200v2.dts",
+    "path": "target/linux/qualcommax/dts/ipq8174-mx4200v2.dts",
+    "sha": "3805b3cbe0f49c5c985b90de0b3f918f716161cd",
+    "size": 941,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8174-mx4200v2.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8174-mx4200v2.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/3805b3cbe0f49c5c985b90de0b3f918f716161cd",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8174-mx4200v2.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8174-mx4200v2.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/3805b3cbe0f49c5c985b90de0b3f918f716161cd",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8174-mx4200v2.dts"
+    }
+  },
+  {
+    "name": "ipq8174-mx4300.dts",
+    "path": "target/linux/qualcommax/dts/ipq8174-mx4300.dts",
+    "sha": "71b2ece78c7fd3181f6f0cf83fa91d31b9b12af5",
+    "size": 5796,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8174-mx4300.dts?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8174-mx4300.dts",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/71b2ece78c7fd3181f6f0cf83fa91d31b9b12af5",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8174-mx4300.dts",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8174-mx4300.dts?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/71b2ece78c7fd3181f6f0cf83fa91d31b9b12af5",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8174-mx4300.dts"
+    }
+  },
+  {
+    "name": "ipq8174-mx4x00.dtsi",
+    "path": "target/linux/qualcommax/dts/ipq8174-mx4x00.dtsi",
+    "sha": "1493236a6faaace67639562c294a9ebc462990e6",
+    "size": 2928,
+    "url": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8174-mx4x00.dtsi?ref=main",
+    "html_url": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8174-mx4x00.dtsi",
+    "git_url": "https://api.github.com/repos/openwrt/openwrt/git/blobs/1493236a6faaace67639562c294a9ebc462990e6",
+    "download_url": "https://raw.githubusercontent.com/openwrt/openwrt/main/target/linux/qualcommax/dts/ipq8174-mx4x00.dtsi",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/openwrt/openwrt/contents/target/linux/qualcommax/dts/ipq8174-mx4x00.dtsi?ref=main",
+      "git": "https://api.github.com/repos/openwrt/openwrt/git/blobs/1493236a6faaace67639562c294a9ebc462990e6",
+      "html": "https://github.com/openwrt/openwrt/blob/main/target/linux/qualcommax/dts/ipq8174-mx4x00.dtsi"
+    }
+  }
+]
