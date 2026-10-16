@@ -29,10 +29,9 @@ make -j"$(nproc)" download && make -j"$(nproc)" V=s
 
 产物在 `bin/targets/qualcommax/ipq60xx/`：
 
-- `*zn_m2*squashfs-nand-factory.ubi` —— 首次刷入
-- `*zn_m2*squashfs-nand-sysupgrade.bin` —— 升级
+- `*zn_m2*squashfs-nand-factory.ubi` —— 原厂固件首次刷入
+- `*zn_m2*squashfs-nand-sysupgrade.bin` —— 已在跑 OpenWrt 时升级
 - `*zn_m2*initramfs-uImage.itb` —— 试启动 / 救援
 
-1. 备份配置，留一份当前固件的 sysupgrade 包。
-2. 先刷 initramfs 试启动，再 sysupgrade。
-3. 不要动 `0:mibib` / `0:appsbl` / `0:cdt`。
+1. 刷前备份原机固件与配置。
+2. 不要动 `0:mibib` / `0:appsbl` / `0:cdt`。
