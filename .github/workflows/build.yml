@@ -132,4 +132,4 @@ jobs:
           files: openwrt/bin/targets/qualcommax/ipq60xx/*zn_m2*
           body: |
             官方 openwrt/openwrt + ZN-M2 移植补丁（非下游树），`kmod-rkp-ipid` 同编。
-            首次刷入先试 initramfs，并留一份现网固件当回滚基线。
+            首次刷入先试 initramfs，并留一份现有固件当回滚基线。

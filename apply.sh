@@ -67,7 +67,7 @@ fi
 
 cat <<EOF
 
-移植已应用。接下来（本机编不动，走 Actions 或另一台能装包的 Linux，见 README.md）：
+移植已应用。接下来：
 
   cd $TREE
   cp $HERE/configs/feeds.conf feeds.conf      # 精简 feeds：只 packages + luci

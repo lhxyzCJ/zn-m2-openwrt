@@ -15,7 +15,7 @@ endef
 
 # 故意不用 AUTOLOAD：$(call AutoLoad,99,rkp-ipid) 只会生成一行裸的 "rkp-ipid"，
 # 内核就用默认 mark_capture=0x10 / mark_random=0x20；而本项目的 iot 规则用的是
-# 0x100 / 0x200（现网 /etc/modules.d/99-rkp-ipid 就是这一行），所以必须写死参数。
+# 0x100 / 0x200（本项目的分流转发规则用的就是这两个值），所以必须写死参数。
 #
 # 注意：验证参数是否真的生效要看 dmesg（模块加载时会打印 mark_capture/mark_random），
 # 手工 insmod 才传得进参数，busybox 的 modprobe 会把参数悄悄丢掉。
