@@ -36,5 +36,3 @@ make -j"$(nproc)" download && make -j"$(nproc)" V=s
 1. 备份配置，并留一份当前固件的 sysupgrade 包当回滚基线。
 2. 先刷 initramfs 试启动（认网口、认无线），没问题再 sysupgrade。
 3. 不要动 `0:mibib` / `0:appsbl` / `0:cdt`：`factory.ubi` 只覆写 `rootfs`。
-
-> 仍在开发中，固件尚未完整上机验证；建议先刷 initramfs 试启动并留好回滚包。
