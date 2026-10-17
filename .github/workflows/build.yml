@@ -16,6 +16,8 @@ on:
   push:
     branches: [master, main]
     paths:
+      - 'apply.sh'
+      - 'packages/**'
       - '**/patches/**.patch'
       - '**/configs/zn_m2.config'
       - '**/configs/feeds.conf'
