@@ -1,14 +1,28 @@
-# ZN-M2 固件云编译（官方 openwrt/openwrt + 本目录的移植补丁）
-# 部署：本仓（openwrt dev/）就是移植包，推成 public 仓后手动跑一次即可。
-# 仓必须是 public：public 仓 Actions 免费不限时长，private 只有 2000 min/月。
+# ZN-M2 固件 / 软件包云编译（官方 openwrt/openwrt + 本目录移植补丁）
+#
+# 两种模式（Actions → Run workflow → mode）：
+#   firmware: 编完整固件；用最终镜像的 .manifest 逐项核验 seed 里的包，缺包直接失败。
+#   packages: 只编 configs/zn_m2.config 选中的包（含 kmod-nft-queue），不生成镜像。
+#
+# 重要：kmod 依赖 kernel=6.18.55~<内核 config hash>-r1。改 config（例如加 kmod-nft-queue）
+# 会改 hash；单独编的 kmod 装不进用旧 config 编的固件。现网要补 kmod，实际可行的是重刷新固件。
+# 同一次 firmware 构建产出的 packages 才与镜像同 key、同 vermagic。
 
 name: Build ZN-M2 (qualcommax/ipq60xx)
 
 on:
   workflow_dispatch:
     inputs:
-      branch:
-        description: openwrt 源码分支
+      mode:
+        description: '构建内容'
+        required: true
+        default: firmware
+        type: choice
+        options:
+          - firmware
+          - packages
+      upstream:
+        description: 'openwrt/openwrt ref（分支/tag/SHA；packages 要与固件同源时填固件的 upstream）'
         required: true
         default: main
   schedule:
@@ -18,13 +32,18 @@ on:
     paths:
       - 'apply.sh'
       - 'packages/**'
-      - '**/patches/**.patch'
-      - '**/configs/zn_m2.config'
-      - '**/configs/feeds.conf'
+      - 'patches/**'
+      - 'files/**'
+      - 'configs/**'
       - '.github/workflows/build.yml'
+
+permissions:
+  contents: write
 
 env:
   REPO_URL: https://github.com/openwrt/openwrt.git
+  MODE: ${{ github.event.inputs.mode || 'firmware' }}
+  UPSTREAM: ${{ github.event.inputs.upstream || 'main' }}
 
 jobs:
   build:
@@ -37,9 +56,18 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: 时间戳
+      - name: 参数
         id: meta
-        run: echo "tag=$(date +%Y.%m.%d-%H%M)" >> "$GITHUB_OUTPUT"
+        run: |
+          tag=$(date +%Y.%m.%d-%H%M)
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+          echo "mode=$MODE" >> "$GITHUB_OUTPUT"
+          if [ "$MODE" = firmware ]; then
+            echo "artifact=zn-m2-$tag" >> "$GITHUB_OUTPUT"
+          else
+            echo "artifact=zn-m2-packages-$tag" >> "$GITHUB_OUTPUT"
+          fi
+          echo "mode=$MODE upstream=$UPSTREAM tag=$tag"
 
       # OpenWrt 全量编译要 20–30G，标准 runner 的根分区可用空间有限，
       # 不清盘很容易死在 "No space left on device"。
@@ -60,11 +88,18 @@ jobs:
             file wget curl ccache subversion time \
             uuid-dev liblz4-dev liblzma-dev libselinux1-dev
 
-      - name: 拉官方源码
+      - name: 拉官方源码（${{ env.UPSTREAM }}）
+        id: upstream
         run: |
-          BRANCH="${{ github.event.inputs.branch || 'main' }}"
-          git clone --depth 1 -b "$BRANCH" "$REPO_URL" openwrt
-          git -C openwrt log -1 --format='%H %cd %s' | tee upstream.txt
+          git init openwrt
+          git -C openwrt remote add origin "$REPO_URL"
+          git -C openwrt fetch --depth 1 origin "$UPSTREAM"
+          git -C openwrt checkout --detach FETCH_HEAD
+          {
+            git -C openwrt log -1 --format='%H %cd %s'
+            echo "repo $GITHUB_SHA"
+          } | tee upstream.txt
+          echo "sha=$(git -C openwrt rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
       - name: 打 ZN M2 移植补丁（含树外包 packages/*）
         run: sh apply.sh openwrt
@@ -80,60 +115,150 @@ jobs:
 
           grep -q '^CONFIG_TARGET_qualcommax_ipq60xx_DEVICE_zn_m2=y' .config
           grep -q '^CONFIG_PACKAGE_ipq-wifi-zn_m2=y' .config
-          grep -q '^CONFIG_PACKAGE_kmod-nft-tproxy=y' .config
-          grep -q '^CONFIG_PACKAGE_luci=y' .config
+          grep -q '^CONFIG_LUCI_LANG_zh_Hans=y' .config
 
-          # rkp-ipid 是树外包（apply.sh 拷进 package/），缺了只告警不中断，
-          # 但 Actions 页面上必须看得见。
-          if grep -q '^CONFIG_PACKAGE_kmod-rkp-ipid=y' .config; then
-            echo "rkp-ipid: 已随固件编译"
-          else
-            echo "::warning title=缺少 kmod-rkp-ipid::树外包没被 defconfig 选中 —— 检查 apply.sh 是否把 packages/rkp-ipid 拷进了 package/，以及符号名是否为 CONFIG_PACKAGE_kmod-rkp-ipid"
-          fi
-
-          echo "--- 被 defconfig 丢弃的勾选项（应为空）---"
-          for p in $(grep -o '^CONFIG_PACKAGE_[a-z0-9_.+-]*=y' "../configs/zn_m2.config"); do
-            grep -q "^${p}\$" .config || echo "MISSING: ${p}"
-          done
+          # seed 里每个 CONFIG_PACKAGE_*=y 都必须在 defconfig 后仍然存在。
+          # 但只看 defconfig 不够：最终还要在镜像 manifest 里核验（见后面的步骤）。
+          missing=0
+          while IFS= read -r pkg; do
+            if ! grep -qxF "CONFIG_PACKAGE_${pkg}=y" .config; then
+              echo "::error title=defconfig 丢弃了 ${pkg}::CONFIG_PACKAGE_${pkg}=y 没有进入 .config"
+              missing=1
+            fi
+          done < <(sed -n 's/^CONFIG_PACKAGE_\(.*\)=y$/\1/p' ../configs/zn_m2.config)
+          [ "$missing" -eq 0 ]
 
       - name: 缓存已下载的源码包
         uses: actions/cache@v4
         with:
           path: openwrt/dl
-          key: dl-${{ hashFiles('**/configs/zn_m2.config') }}-${{ hashFiles('upstream.txt') }}
+          key: dl-${{ hashFiles('configs/zn_m2.config') }}-${{ steps.upstream.outputs.sha }}
           restore-keys: dl-
 
       - name: 下载源码包
-        run: cd openwrt && make -j"$(nproc)" download || make -j1 download V=s
+        run: cd openwrt && (make -j"$(nproc)" download || make -j1 download V=s)
 
-      - name: 编译
+      - name: 编译固件
+        if: steps.meta.outputs.mode == 'firmware'
         run: |
           cd openwrt
           make -j"$(nproc)" || make -j1 V=s
 
-      - name: 检查产物
+      # 单独编包：target/compile 会先把 toolchain + 内核（含 .ko）编好，
+      # 否则 kmod 包没有可打包的模块。不跑 target/install，所以不出镜像。
+      - name: 编译 packages（不生成镜像）
+        if: steps.meta.outputs.mode == 'packages'
         run: |
           cd openwrt
+          build() {
+            make -j"$(nproc)" "$@" || make -j1 V=s "$@"
+          }
+          build target/compile
+          build package/cleanup
+          build package/compile
+          build package/index
+
+      - name: 校验固件里的包
+        if: steps.meta.outputs.mode == 'firmware'
+        run: |
+          cd openwrt
+          manifest=$(find bin/targets/qualcommax/ipq60xx -maxdepth 1 -name '*zn_m2*.manifest' -print -quit)
+          [ -n "$manifest" ] || { echo "::error::没有生成 zn_m2 manifest"; exit 1; }
+
+          # 以最终镜像的 manifest 为准，而不是 .config：defconfig 选中了、
+          # 编译时又被丢弃/没装进 rootfs 的包，只有这里能抓到。
+          missing=0
+          while IFS= read -r pkg; do
+            if ! awk -v p="$pkg" '$1==p {found=1} END {exit !found}' "$manifest"; then
+              echo "::error title=镜像缺少 ${pkg}::${pkg} 不在 $(basename "$manifest") 里"
+              missing=1
+            fi
+          done < <(sed -n 's/^CONFIG_PACKAGE_\(.*\)=y$/\1/p' ../configs/zn_m2.config)
+          [ "$missing" -eq 0 ]
+
+          echo "--- 关键包 ---"
+          for pkg in kmod-nft-queue kmod-rkp-ipid ipq-wifi-zn_m2; do
+            if ! awk -v p="$pkg" '$1==p {print; found=1} END {exit !found}' "$manifest"; then
+              echo "::error title=镜像缺少 ${pkg}::${pkg} 不在 $(basename "$manifest") 里"
+              exit 1
+            fi
+          done
+
           ls -lh bin/targets/qualcommax/ipq60xx/
           ls bin/targets/qualcommax/ipq60xx/*zn_m2*sysupgrade* >/dev/null
           # FIT 配置名必须和 u-boot 挑的 config@cp03-c1 对上，否则刷进去起不来
           grep -q 'config@cp03-c1' bin/targets/qualcommax/ipq60xx/*zn_m2*initramfs-uImage.itb
 
+      - name: 校验 packages
+        if: steps.meta.outputs.mode == 'packages'
+        run: |
+          cd openwrt
+          missing=0
+          while IFS= read -r pkg; do
+            if ! find bin -name "${pkg}-*.apk" -print -quit | grep -q .; then
+              echo "::error title=缺少 ${pkg} 包::没有找到 ${pkg}-*.apk"
+              missing=1
+            fi
+          done < <(sed -n 's/^CONFIG_PACKAGE_\(.*\)=y$/\1/p' ../configs/zn_m2.config)
+          [ "$missing" -eq 0 ]
+
+          echo "--- 关键包 ---"
+          find bin -name 'kmod-nft-queue-*.apk' -print
+          find bin -name 'kernel-*.apk' -print
+          echo "apk 数量: $(find bin -name '*.apk' | wc -l)"
+          find bin/packages -maxdepth 3 -name 'packages.adb' -print | head
+
+      - name: 打包产物
+        run: |
+          mkdir -p out
+          cp upstream.txt out/
+          cp openwrt/public-key.pem out/ 2>/dev/null || true
+
+          if [ "${{ steps.meta.outputs.mode }}" = firmware ]; then
+            cp openwrt/bin/targets/qualcommax/ipq60xx/*zn_m2* out/
+          fi
+
+          dirs=()
+          if [ -d openwrt/bin/packages ]; then
+            dirs+=(bin/packages)
+          fi
+          if [ -d openwrt/bin/targets/qualcommax/ipq60xx/packages ]; then
+            dirs+=(bin/targets/qualcommax/ipq60xx/packages)
+          fi
+          if [ "${#dirs[@]}" -eq 0 ]; then
+            echo "::error::没有 packages 目录可打包"
+            exit 1
+          fi
+          tar -czf "out/zn-m2-packages-${{ steps.meta.outputs.tag }}.tar.gz" -C openwrt "${dirs[@]}"
+          ls -lh out/
+
       - name: 上传 artifact
         uses: actions/upload-artifact@v4
         with:
-          name: zn-m2-${{ steps.meta.outputs.tag }}
-          path: |
-            openwrt/bin/targets/qualcommax/ipq60xx/*zn_m2*
-            upstream.txt
+          name: ${{ steps.meta.outputs.artifact }}
+          path: out/
           retention-days: 14
 
       - name: 发 Release
-        if: github.event_name != 'push'
+        if: steps.meta.outputs.mode == 'firmware' && github.event_name != 'push'
         uses: softprops/action-gh-release@v2
         with:
           tag_name: zn-m2-${{ steps.meta.outputs.tag }}
           name: ZN-M2 ${{ steps.meta.outputs.tag }}
-          files: openwrt/bin/targets/qualcommax/ipq60xx/*zn_m2*
+          files: out/*
           body: |
-            官方 openwrt/openwrt + ZN-M2 移植补丁（非下游树），`kmod-rkp-ipid` 同编。
+            本仓 @ `${{ github.sha }}`，上游 openwrt/openwrt @ `${{ steps.upstream.outputs.sha }}` + ZN-M2 移植补丁（非下游树），`kmod-rkp-ipid` 同编。
+
+            `zn-m2-packages-*.tar.gz` 与本镜像同一次构建、同一签名 key、同一内核 vermagic；需要额外包时从这里取。
+
+      - name: 摘要
+        if: always()
+        run: |
+          {
+            echo "## ZN-M2 ${{ steps.meta.outputs.mode }} ${{ steps.meta.outputs.tag }}"
+            echo "- upstream: \`$(cat upstream.txt 2>/dev/null || echo unknown)\`"
+            echo "- artifact: \`${{ steps.meta.outputs.artifact }}\`"
+            if [ "${{ steps.meta.outputs.mode }}" = packages ]; then
+              echo "- 注意：packages 只有与固件同 upstream + 同 config 才能装入；签名 key 不同需 \`apk add --allow-untrusted\`。"
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
