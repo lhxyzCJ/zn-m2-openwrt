@@ -13,7 +13,7 @@
 **本地**（在仓库根目录）：
 
 ```sh
-git clone --depth 1 -b openwrt-25.12 https://github.com/openwrt/openwrt
+git clone --depth 1 -b main https://github.com/openwrt/openwrt
 sh apply.sh openwrt
 cd openwrt
 cp ../configs/feeds.conf feeds.conf

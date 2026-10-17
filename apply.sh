@@ -4,7 +4,7 @@
 #   sh apply.sh /path/to/openwrt
 #
 # 幂等：已经打过的补丁会被识别并跳过；部分打过则报错退出（不会打歪）。
-# 需要官方 openwrt-25.12 分支（main 上 DTS/绑定有差异，未验证）。
+# 需要官方 openwrt main 分支（qualcommax/ipq60xx，内核 6.18）。
 
 set -e
 
@@ -30,7 +30,7 @@ for p in "$HERE"/patches/*.patch; do
 		echo "==> 跳过 $name（已应用）"
 	else
 		echo "!!! $name 既打不上、也不是已应用状态" >&2
-		echo "    多半是源码树版本不对（本移植针对 openwrt-25.12），或该文件被改过。" >&2
+		echo "    多半是源码树版本不对（本移植针对官方 main），或该文件被改过。" >&2
 		exit 1
 	fi
 done

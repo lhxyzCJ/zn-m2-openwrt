@@ -10,7 +10,7 @@ on:
       branch:
         description: openwrt 源码分支
         required: true
-        default: openwrt-25.12
+        default: main
   schedule:
     - cron: '17 19 * * 0'        # 每周一 03:17（UTC+8）自动跟上游重建
   push:
@@ -59,7 +59,7 @@ jobs:
 
       - name: 拉官方源码
         run: |
-          BRANCH="${{ github.event.inputs.branch || 'openwrt-25.12' }}"
+          BRANCH="${{ github.event.inputs.branch || 'main' }}"
           git clone --depth 1 -b "$BRANCH" "$REPO_URL" openwrt
           git -C openwrt log -1 --format='%H %cd %s' | tee upstream.txt
 
@@ -80,8 +80,8 @@ jobs:
           grep -q '^CONFIG_PACKAGE_kmod-nft-tproxy=y' .config
           grep -q '^CONFIG_PACKAGE_luci=y' .config
 
-          # rkp-ipid 是树外包（apply.sh 拷进 package/），尚未在真机编译验证过：
-          # 缺了只告警不中断，但 Actions 页面上必须看得见。
+          # rkp-ipid 是树外包（apply.sh 拷进 package/），缺了只告警不中断，
+          # 但 Actions 页面上必须看得见。
           if grep -q '^CONFIG_PACKAGE_kmod-rkp-ipid=y' .config; then
             echo "rkp-ipid: 已随固件编译"
           else
@@ -113,6 +113,8 @@ jobs:
           cd openwrt
           ls -lh bin/targets/qualcommax/ipq60xx/
           ls bin/targets/qualcommax/ipq60xx/*zn_m2*sysupgrade* >/dev/null
+          # FIT 配置名必须和 u-boot 挑的 config@cp03-c1 对上，否则刷进去起不来
+          grep -q 'config@cp03-c1' bin/targets/qualcommax/ipq60xx/*zn_m2*initramfs-uImage.itb
 
       - name: 上传 artifact
         uses: actions/upload-artifact@v4
@@ -132,4 +134,3 @@ jobs:
           files: openwrt/bin/targets/qualcommax/ipq60xx/*zn_m2*
           body: |
             官方 openwrt/openwrt + ZN-M2 移植补丁（非下游树），`kmod-rkp-ipid` 同编。
-            首次刷入先试 initramfs，并留一份现有固件当回滚基线。

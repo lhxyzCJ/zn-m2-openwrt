@@ -1,14 +1,14 @@
 diff --git a/package/firmware/ipq-wifi/Makefile b/package/firmware/ipq-wifi/Makefile
-index d3605dd..670415e 100644
+index ba6126a..0352094 100644
 --- a/package/firmware/ipq-wifi/Makefile
 +++ b/package/firmware/ipq-wifi/Makefile
 @@ -16,6 +16,15 @@ include $(INCLUDE_DIR)/package.mk
  define Build/Compile
  endef
  
-+# ZN M2 board data is not (yet) part of the qca-wireless.git repository, so it
-+# is shipped in src/ and copied into PKG_BUILD_DIR, where the wildcard in
-+# generate-ipq-wifi-package picks it up like any other board-$(1).* file.
++# ZN M2 board data is not part of qca-wireless.git, so ship it in src/ and copy
++# it into PKG_BUILD_DIR, where the wildcard in generate-ipq-wifi-package picks
++# it up like any other board-$(1).* file.
 +define Build/Prepare
 +	$(call Build/Prepare/Default)
 +	$(INSTALL_DIR) $(PKG_BUILD_DIR)
@@ -18,17 +18,17 @@ index d3605dd..670415e 100644
  # Use ath10k-bdencoder from https://github.com/qca/qca-swiss-army-knife.git
  # to generate the board-* files here.
  #
-@@ -102,6 +111,7 @@ ALLWIFIBOARDS:= \
- 	yuncore_ax880 \
+@@ -125,6 +134,7 @@ ALLWIFIBOARDS:= \
  	yuncore_fap650 \
+ 	yyets_le1 \
  	zbtlink_zbt-z800ax \
 +	zn_m2 \
  	zte_mf269 \
  	zte_mf286ar\
  	zte_mf286c \
-@@ -287,6 +297,7 @@ $(eval $(call generate-ipq-wifi-package,yuncore_ax850,Yuncore AX850))
- $(eval $(call generate-ipq-wifi-package,yuncore_ax880,Yuncore AX880))
+@@ -336,6 +346,7 @@ $(eval $(call generate-ipq-wifi-package,yuncore_ax880,Yuncore AX880))
  $(eval $(call generate-ipq-wifi-package,yuncore_fap650,Yuncore FAP650))
+ $(eval $(call generate-ipq-wifi-package,yyets_le1,YYeTs LE1))
  $(eval $(call generate-ipq-wifi-package,zbtlink_zbt-z800ax,Zbtlink ZBT-Z800AX))
 +$(eval $(call generate-ipq-wifi-package,zn_m2,ZN M2))
  $(eval $(call generate-ipq-wifi-package,zte_mf269,ZTE MF269))
