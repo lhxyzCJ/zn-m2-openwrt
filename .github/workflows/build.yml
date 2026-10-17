@@ -18,6 +18,7 @@ on:
     paths:
       - '**/patches/**.patch'
       - '**/configs/zn_m2.config'
+      - '**/configs/feeds.conf'
       - '.github/workflows/build.yml'
 
 env:
