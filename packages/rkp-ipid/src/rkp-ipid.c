@@ -13,6 +13,8 @@ MODULE_AUTHOR("Haonan Chen");
 MODULE_DESCRIPTION("Modify IDs of IP headers into numerically increasing order, for anti-detection of NAT.");
 MODULE_LICENSE("GPL");
 
+#define RKP_IPID_VERSION	2
+
 static u_int32_t mark_capture = 0x10;
 module_param(mark_capture, uint, 0);
 static u_int32_t mark_random = 0x20;
@@ -77,7 +79,7 @@ static int __init hook_init(void)
 
 	ret = nf_register_net_hook(&init_net, &nfho);
 	get_random_bytes(&(id_next), 2);
-	printk("rkp-ipid: Started, version=%d, mark_capture=0x%x. mark_random=0x%x.\n", VERSION, mark_capture, mark_random);
+	printk("rkp-ipid: Started, version=%d, mark_capture=0x%x. mark_random=0x%x.\n", RKP_IPID_VERSION, mark_capture, mark_random);
 	printk("rkp-ipid: nf_register_net_hook returnd %d.\n", ret);
 
 	return 0;

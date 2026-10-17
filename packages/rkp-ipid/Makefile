@@ -27,14 +27,10 @@ endef
 EXTRA_KCONFIG:= \
 	CONFIG_RKP_IPID=m
 
-EXTRA_CFLAGS:= \
-	$(patsubst CONFIG_%, -DCONFIG_%=1, $(patsubst %=m,%,$(filter %=m,$(EXTRA_KCONFIG)))) \
-	$(patsubst CONFIG_%, -DCONFIG_%=1, $(patsubst %=y,%,$(filter %=y,$(EXTRA_KCONFIG)))) \
-	-DVERSION=$(PKG_RELEASE)
-
+# 不要把编译宏塞进 EXTRA_CFLAGS：6.18 起 kbuild 已不再把它桥接进 ccflags-y
+# （scripts/Makefile.lib 里没有这个变量了），传了也是静默丢弃。版本号写在源码里。
 MAKE_OPTS:=$(KERNEL_MAKE_FLAGS) \
 	M="$(PKG_BUILD_DIR)" \
-	EXTRA_CFLAGS="$(EXTRA_CFLAGS)" \
 	$(EXTRA_KCONFIG)
 
 define Build/Compile
