@@ -1,9 +1,9 @@
 diff --git a/target/linux/qualcommax/dts/ipq6018-m2.dts b/target/linux/qualcommax/dts/ipq6018-m2.dts
 new file mode 100644
-index 0000000..506776d
+index 0000000..70ae8ec
 --- /dev/null
 +++ b/target/linux/qualcommax/dts/ipq6018-m2.dts
-@@ -0,0 +1,256 @@
+@@ -0,0 +1,265 @@
 +// SPDX-License-Identifier: GPL-2.0-or-later OR MIT
 +
 +/dts-v1/;
@@ -259,4 +259,13 @@ index 0000000..506776d
 +
 +	qcom,ath11k-fw-memory-mode = <1>;
 +	qcom,ath11k-calibration-variant = "ZN-M2";
++};
++
++/*
++ * q6_region 在 ipq6018.dtsi 里默认 85 MiB，ipq6018-512m.dtsi 已把它改成 55 MiB
++ * （原厂固件的值），但 ipq6018-mp5496.dtsi 会再 include 一次 ipq6018.dtsi，把它
++ * 覆盖回 85 MiB。所以必须在所有 include 之后再写一次。
++ */
++&q6_region {
++	reg = <0x0 0x4ab00000 0x0 0x3700000>;
 +};
