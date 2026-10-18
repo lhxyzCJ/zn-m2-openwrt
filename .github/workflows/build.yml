@@ -40,10 +40,29 @@ on:
 permissions:
   contents: write
 
+# 同一 ref 只跑一个：避免两个 runner 并行各烧一份编译、也避免同时往 Release 写。
+# 不动 cancel-in-progress —— 正在跑的构建（可能要 1 小时）不该被一次 push 砍掉，
+# 新 push 排队等它跑完（GitHub 只保留一个 pending）。
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
 env:
   REPO_URL: https://github.com/openwrt/openwrt.git
   MODE: ${{ github.event.inputs.mode || 'firmware' }}
   UPSTREAM: ${{ github.event.inputs.upstream || 'main' }}
+  # ccache：种子里的 CONFIG_CCACHE=y 会让 rules.mk 把 TARGET_CC/HOSTCC 都套上
+  # ccache（toolchain/kernel/host 工具/包全在内），缓存目录是 <树>/.ccache
+  # （rules.mk 的 CCACHE_DIR 默认值，CCACHE_BASEDIR=<树> 保证跨 run 路径一致）。
+  # 下面三个变量是"能不能命中"的关键，不是可选优化：
+  #   COMPILERCHECK=content：toolchain 每次都是新编出来的，默认按 mtime 校验
+  #     编译器 → 每次 run 全 miss；按内容校验才有命中。
+  #   SLOPPINESS/NOHASHDIR：容忍重新生成的头文件时间戳、不把 CWD 计入 hash。
+  #   MAXSIZE：仓库 Actions cache 上限 10 GiB（当前 dl 占约 2 GiB）。
+  CCACHE_COMPILERCHECK: content
+  CCACHE_SLOPPINESS: file_stat_matches,time_macros,include_file_ctime,include_file_mtime
+  CCACHE_NOHASHDIR: "true"
+  CCACHE_MAXSIZE: 4G
 
 jobs:
   build:
@@ -68,6 +87,11 @@ jobs:
             echo "artifact=zn-m2-packages-$tag" >> "$GITHUB_OUTPUT"
           fi
           echo "mode=$MODE upstream=$UPSTREAM tag=$tag"
+
+      - name: 机器规格（并行度就由它决定）
+        run: |
+          echo "nproc=$(nproc)"; lscpu | grep -E '^(Model name|CPU\(s\)|Thread|Core|Socket)' || true
+          free -g; df -h / | tail -1
 
       # OpenWrt 全量编译要 20–30G，标准 runner 的根分区可用空间有限，
       # 不清盘很容易死在 "No space left on device"。
@@ -152,6 +176,18 @@ jobs:
           path: openwrt/dl
           key: dl-${{ hashFiles('configs/zn_m2.config') }}-${{ steps.upstream.outputs.sha }}
           restore-keys: dl-
+
+      # ccache 目录：<树>/.ccache（rules.mk 的默认 CCACHE_DIR）。
+      # key 先按 upstream+config 精确命中；命中不了就退到同 upstream、再退到任意旧缓存
+      # —— ccache 自己会按内容判断单个 .o 能不能用，给错缓存也不会出错，只是白跑。
+      - name: 缓存 ccache
+        uses: actions/cache@v4
+        with:
+          path: openwrt/.ccache
+          key: ccache-${{ steps.upstream.outputs.sha }}-${{ hashFiles('configs/zn_m2.config') }}
+          restore-keys: |
+            ccache-${{ steps.upstream.outputs.sha }}-
+            ccache-
 
       - name: 下载源码包
         run: cd openwrt && (make -j"$(nproc)" download || make -j1 download V=s)
