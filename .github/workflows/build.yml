@@ -51,9 +51,12 @@ env:
   REPO_URL: https://github.com/openwrt/openwrt.git
   MODE: ${{ github.event.inputs.mode || 'firmware' }}
   UPSTREAM: ${{ github.event.inputs.upstream || 'main' }}
-  # ccache：种子里的 CONFIG_CCACHE=y 会让 rules.mk 把 TARGET_CC/HOSTCC 都套上
-  # ccache（toolchain/kernel/host 工具/包全在内），缓存目录是 <树>/.ccache
-  # （rules.mk 的 CCACHE_DIR 默认值，CCACHE_BASEDIR=<树> 保证跨 run 路径一致）。
+  # ccache：必须走 env，写进 configs/*.config 是无效的 —— 上游把 `config CCACHE`
+  # 关在 DEVEL 菜单里（`bool "Use ccache" if DEVEL`），DEVEL=n 时该符号不进 .config，
+  # make defconfig 会把种子那行静默丢掉。rules.mk 只检查 make 变量，所以 env 生效，
+  # 把 TARGET_CC/HOSTCC 全套上 ccache（toolchain/内核/host 工具/包全在内），
+  # 缓存目录 <树>/.ccache（CCACHE_DIR 默认值，CCACHE_BASEDIR=<树> 保证跨 run 路径一致）。
+  CONFIG_CCACHE: "y"
   # 下面三个变量是"能不能命中"的关键，不是可选优化：
   #   COMPILERCHECK=content：toolchain 每次都是新编出来的，默认按 mtime 校验
   #     编译器 → 每次 run 全 miss；按内容校验才有命中。
