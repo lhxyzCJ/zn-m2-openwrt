@@ -104,6 +104,23 @@ jobs:
       - name: 打 ZN M2 移植补丁（含树外包 packages/*）
         run: sh apply.sh openwrt
 
+      # 固定 apk 签名 key：对应 package/Makefile 的 BUILD_KEY_APK_SEC/PUB
+      # （<树>/private-key.pem、<树>/public-key.pem）。key 已存在 → make 不再随机生成，
+      # 于是每次构建的包/索引签名与 key 都稳定，镜像里 /etc/apk/keys/public-key.pem
+      # 也随之固定，Release 上的包集可以直接 apk add（不必 --allow-untrusted）。
+      - name: 固定 apk 签名密钥
+        env:
+          APK_PRIVATE_KEY: ${{ secrets.APK_PRIVATE_KEY }}
+        run: |
+          [ -n "$APK_PRIVATE_KEY" ] || { echo "::error::缺少 secret APK_PRIVATE_KEY"; exit 1; }
+          printf '%s\n' "$APK_PRIVATE_KEY" > openwrt/private-key.pem
+          chmod 600 openwrt/private-key.pem
+          grep -q '^-----BEGIN EC PRIVATE KEY-----$' openwrt/private-key.pem
+          cp configs/public-key.pem openwrt/public-key.pem
+          # 公钥必须是私钥推出来的那一把，否则签名对不上
+          openssl ec -in openwrt/private-key.pem -pubout 2>/dev/null | diff -q - openwrt/public-key.pem
+          echo "key id: $(openssl ec -pubin -in openwrt/public-key.pem -outform DER 2>/dev/null | sha256sum | cut -c1-16)"
+
       - name: feeds 与 config
         run: |
           cd openwrt
@@ -117,15 +134,16 @@ jobs:
           grep -q '^CONFIG_PACKAGE_ipq-wifi-zn_m2=y' .config
           grep -q '^CONFIG_LUCI_LANG_zh_Hans=y' .config
 
-          # seed 里每个 CONFIG_PACKAGE_*=y 都必须在 defconfig 后仍然存在。
-          # 但只看 defconfig 不够：最终还要在镜像 manifest 里核验（见后面的步骤）。
+          # seed 里每个 CONFIG_PACKAGE_*=[ym] 都必须在 defconfig 后原样存在（=m 的
+          # “只编包不进镜像”也必须落地，否则 feed 里会静默少包）。
+          # 但只看 defconfig 不够：=y 的最终还要在镜像 manifest 里核验（见后面的步骤）。
           missing=0
-          while IFS= read -r pkg; do
-            if ! grep -qxF "CONFIG_PACKAGE_${pkg}=y" .config; then
-              echo "::error title=defconfig 丢弃了 ${pkg}::CONFIG_PACKAGE_${pkg}=y 没有进入 .config"
+          while IFS= read -r line; do
+            if ! grep -qxF "$line" .config; then
+              echo "::error title=defconfig 丢弃了 ${line}::${line} 没有进入 .config"
               missing=1
             fi
-          done < <(sed -n 's/^CONFIG_PACKAGE_\(.*\)=y$/\1/p' ../configs/zn_m2.config)
+          done < <(sed -n 's/^\(CONFIG_PACKAGE_[^=]*=[ym]\)$/\1/p' ../configs/zn_m2.config)
           [ "$missing" -eq 0 ]
 
       - name: 缓存已下载的源码包
@@ -232,7 +250,22 @@ jobs:
             exit 1
           fi
           tar -czf "out/zn-m2-packages-${{ steps.meta.outputs.tag }}.tar.gz" -C openwrt "${dirs[@]}"
-          ls -lh out/
+
+          # 扁平 feed：Release 资产本身当 apk 源用。apk 取包时按"索引 URL 同目录 +
+          # <name>-<version>.apk"解析，所以 .apk 必须与索引同目录，索引改名区分各 feed
+          # （跨 feed 无重名，实测 209 个）。
+          find openwrt/bin/packages openwrt/bin/targets/qualcommax/ipq60xx/packages \
+               -name '*.apk' -exec cp -n {} out/ \;
+          cp openwrt/bin/packages/aarch64_cortex-a53/base/packages.adb     out/base-packages.adb
+          cp openwrt/bin/packages/aarch64_cortex-a53/luci/packages.adb     out/luci-packages.adb
+          cp openwrt/bin/packages/aarch64_cortex-a53/packages/packages.adb out/packages-packages.adb
+          cp openwrt/bin/targets/qualcommax/ipq60xx/packages/packages.adb  out/target-packages.adb
+          # 本机内核身份（= kernel 包名里的 6.18.55~<内核 config hash>-r1）：路由器用它挑
+          # 与自己完全匹配的那次构建 —— kmod 的安装资格就是这个 hash 决定的。
+          find openwrt/bin -name 'kernel-*.apk' -printf '%f\n' | sed 's/\.apk$//' | head -1 > out/kernel-version.txt
+          cat out/kernel-version.txt
+          echo "feed 包数: $(find out -name '*.apk' | wc -l)，索引: $(find out -name '*-packages.adb' | wc -l)"
+          ls -lh out/ | head -5
 
       - name: 上传 artifact
         uses: actions/upload-artifact@v4
@@ -242,7 +275,7 @@ jobs:
           retention-days: 14
 
       - name: 发 Release
-        if: steps.meta.outputs.mode == 'firmware' && github.event_name != 'push'
+        if: steps.meta.outputs.mode == 'firmware'
         uses: softprops/action-gh-release@v2
         with:
           tag_name: zn-m2-${{ steps.meta.outputs.tag }}
@@ -251,7 +284,16 @@ jobs:
           body: |
             本仓 @ `${{ github.sha }}`，上游 openwrt/openwrt @ `${{ steps.upstream.outputs.sha }}` + ZN-M2 移植补丁（非下游树），`kmod-rkp-ipid` 同编。
 
-            `zn-m2-packages-*.tar.gz` 与本镜像同一次构建、同一签名 key、同一内核 vermagic；需要额外包时从这里取。
+            本 release 同时是**本机内核专用的 apk 源**（`kernel-version.txt` 里是内核身份）：
+
+            ```
+            https://github.com/${{ github.repository }}/releases/download/zn-m2-${{ steps.meta.outputs.tag }}/{base,luci,packages,target}-packages.adb
+            ```
+
+            在路由器上执行 `sh /root/pkgfeed.sh` 会自动匹配本机内核并把上面四条写进
+            `/etc/apk/repositories.d/customfeeds.list`；之后 `apk add kmod-xxx` 直接可用
+            （同一次构建、同一内核 config hash、同一签名 key，故 kmod 也能装）。
+            `zn-m2-packages-*.tar.gz` 是同内容的打包件，供离线取用。
 
       - name: 摘要
         if: always()
@@ -260,7 +302,11 @@ jobs:
             echo "## ZN-M2 ${{ steps.meta.outputs.mode }} ${{ steps.meta.outputs.tag }}"
             echo "- upstream: \`$(cat upstream.txt 2>/dev/null || echo unknown)\`"
             echo "- artifact: \`${{ steps.meta.outputs.artifact }}\`"
+            if [ -f out/kernel-version.txt ]; then
+              echo "- 内核身份: \`$(cat out/kernel-version.txt)\`"
+              echo "- feed: \`https://github.com/${{ github.repository }}/releases/download/zn-m2-${{ steps.meta.outputs.tag }}/target-packages.adb\`"
+            fi
             if [ "${{ steps.meta.outputs.mode }}" = packages ]; then
-              echo "- 注意：packages 只有与固件同 upstream + 同 config 才能装入；签名 key 不同需 \`apk add --allow-untrusted\`。"
+              echo "- 注意：packages 只有与固件同 upstream + 同 config（=同 kernel-version）才能装入。"
             fi
           } >> "$GITHUB_STEP_SUMMARY"
