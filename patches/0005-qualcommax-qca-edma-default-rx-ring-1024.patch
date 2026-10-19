@@ -1,0 +1,11 @@
+--- a/target/linux/qualcommax/files/drivers/net/ethernet/qualcomm/qca_edma.h
++++ b/target/linux/qualcommax/files/drivers/net/ethernet/qualcomm/qca_edma.h
+@@ -199,7 +199,7 @@
+ 		      (2 * VLAN_HLEN))
+ #define EDMA_TX_PREHDR_SIZE	(sizeof(struct edma_tx_preheader))
+ #define EDMA_TX_RING_SIZE	128
+-#define EDMA_RX_RING_SIZE	2048
++#define EDMA_RX_RING_SIZE	1024
+ /* The bounds a frame is described to the engine within: at most this many
+  * buffers, and no buffer below this size before the last. The queue stops
+  * with room for a frame that takes every descriptor, or it would restart on
