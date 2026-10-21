@@ -18,6 +18,10 @@
 
 固件产物在 Artifacts（14 天）和 Release（tag `zn-m2-<时间戳>`）；packages 产物是
 `zn-m2-packages-<时间戳>.tar.gz`，内含 `bin/packages` 与 `bin/targets/.../packages` 的 `.apk`。
+**同一个 Release 里还有 4 个 `.adb` 包索引**（`base/luci/packages/target-packages.adb`），
+那才是"能装"的 apk 源——与本机内核同一次构建，kmod 的 vermagic/hash 才匹配。
+现网 `/etc/apk/repositories.d/customfeeds.list`（由 router 上 `/root/pkgfeed.sh` 生成）就指向
+`releases/download/zn-m2-<时间戳>/*.adb`；只拿 tar.gz 离线装包会缺内核身份校验。
 
 **单独编包的边界**：kmod 依赖 `kernel=6.18.55~<内核 config hash>-r1`。改
 `configs/zn_m2.config`（比如刚加 `kmod-nft-queue`）会改 hash，单独编的 kmod 装不进用旧
