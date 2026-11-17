@@ -3,13 +3,14 @@ new file mode 100644
 index 0000000..8bd72c3
 --- /dev/null
 +++ b/target/linux/qualcommax/dts/ipq6018-m2.dts
-@@ -0,0 +1,270 @@
+@@ -0,0 +1,271 @@
 +// SPDX-License-Identifier: GPL-2.0-or-later OR MIT
 +
 +/dts-v1/;
 +
-+#include "ipq6018-512m.dtsi"
++#include "ipq6018.dtsi"
 +#include "ipq6018-ess.dtsi"
++#include "ipq6018-512m.dtsi"
 +/*
 + * 不引 ipq6018-cp-cpu.dtsi：它给 CPU 挂 mp5496/cpr 的 cpu-supply，而 ZN-M2 的
 + * 原厂设备树里既没有 mp5496 也没有 cpu-supply（CPU 供电是板上固定 SMPS，软件
