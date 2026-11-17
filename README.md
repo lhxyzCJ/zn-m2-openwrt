@@ -23,7 +23,7 @@
 现网 `/etc/apk/repositories.d/customfeeds.list`（由 router 上 `/root/pkgfeed.sh` 生成）就指向
 `releases/download/zn-m2-<时间戳>/*.adb`；只拿 tar.gz 离线装包会缺内核身份校验。
 
-**单独编包的边界**：kmod 依赖 `kernel=6.18.55~<内核 config hash>-r1`。改
+**单独编包的边界**：kmod 依赖 `kernel=6.18.60~<内核 config hash>-r1`（以当前 `main` 为准）。改
 `configs/zn_m2.config`（比如刚加 `kmod-nft-queue`）会改 hash，单独编的 kmod 装不进用旧
 config 编的固件；签名 key 也每次构建不同。要给现网补包，最稳的是重刷新固件；刷入后如果还要
 装额外包，用同一次 firmware 构建产出的 `zn-m2-packages-*.tar.gz`（同 key、同 vermagic）；
@@ -41,6 +41,32 @@ cp ../configs/zn_m2.config .config && make defconfig
 export FORCE_UNSAFE_CONFIGURE=1
 make -j"$(nproc)" download && make -j"$(nproc)" V=s
 ```
+
+## 内存相关补丁
+
+- `patches/0005-qualcommax-qca-edma-default-rx-ring-1024.patch`：EDMA RX ring
+  2048 → 1024，4 个队列的 page_pool 约省 16 MiB。
+- `files/package/kernel/mac80211/patches/ath11k/957-ath11k-smallbuffers-zn-m2.patch`：
+  来自 Kwrt `ath11k-smallbuffers` 变体（Ziyang Huang），把 per-pdev 的
+  RXDMA buffer ring 4096→1024、monitor buf/dst 4096/2048→128、mon status 1024→512、
+  TX completion 32768→2048。这些环在正常 AP 模式下也会分配，是 ath11k 常驻内存的大头。
+  本树只给 ZN-M2 用，所以不引入 mac80211 variant，直接改常量；最小环仍有 128 项。
+- DTS 走 `ipq6018.dtsi` → `ipq6018-ess.dtsi` → `ipq6018-512m.dtsi` 的上游顺序。
+  上游把 512m dtsi 改成只覆盖 `q6_region` 后，旧顺序会因缺 `soc` 等 label 编译失败。
+
+## 升级保留
+
+`files/rootfs/etc/sysupgrade.conf` 会装进镜像，同时当前现网的 `/etc/sysupgrade.conf`
+已经使用同一份清单。`sysupgrade` 默认清空 `rootfs_data`（overlay），所以清单里显式保留：
+
+- 自定义 init/rc.d、`/etc/wxdet`、`/etc/xray`、`/etc/sing-box`、`/etc/cloudflared`、
+  `/root`、`/usr/bin/{xray,ua3f,wxdet-gate}`、自定义 nft/LuCI 文件；
+- **不保留** `/etc/svc/svc.sq`（15.8 MB，构建机上有一模一样的副本）。刷完后从
+  构建机 `scp`/`cat` 回 `/etc/svc/svc.sq`，再 `/etc/init.d/cloudflared restart` 即可。
+  这样升级备份约 18 MB，不会把 74 MB 的 `rootfs_data` 顶满。
+- 现网升级前的整机备份仍按 `../Backup/` 的流程做一遍（含 svc.sq 与二进制）。
+- `kmod-tcp-bbr` 改为 `=y` 随镜像进 rootfs：旧 overlay 的 6.18.55 `.ko` 在
+  6.18.60 内核上不能加载。
 
 ## 产物
 
