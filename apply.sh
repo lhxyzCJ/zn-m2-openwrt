@@ -50,6 +50,22 @@ mkdir -p "$(dirname "$DST")"
 cp "$BDF" "$DST"
 echo "==> board-zn_m2.bin.ipq6018 就位（md5 $got，65632 字节）"
 
+# 源码树内的附加文件（不是 rootfs）：目前是 ath11k small-buffers 补丁。
+# mac80211 包构建时会自动应用 patches/ath11k/ 下的新补丁。
+if [ -d "$HERE/files/package/kernel" ]; then
+	mkdir -p "$TREE/package/kernel"
+	cp -a "$HERE/files/package/kernel/." "$TREE/package/kernel/"
+	echo "==> files/package/kernel/* 就位"
+fi
+
+# 自定义 rootfs 文件：OpenWrt 构建会把源码树顶层的 files/ 并入镜像。
+# 目前只有 /etc/sysupgrade.conf（升级保留清单）。
+if [ -d "$HERE/files/rootfs" ]; then
+	mkdir -p "$TREE/files"
+	cp -a "$HERE/files/rootfs/." "$TREE/files/"
+	echo "==> files/rootfs/* 就位"
+fi
+
 # 树外包（目前只有 rkp-ipid 这个内核模块）：拷进 package/
 if [ -d "$HERE/packages" ]; then
 	for d in "$HERE"/packages/*/; do
